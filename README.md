@@ -1,1 +1,1 @@
-#A MAUI Blazor Hybrid desktop application designed for personal expense tracking. 
+A MAUI Blazor Hybrid desktop application designed for personal expense tracking. 
