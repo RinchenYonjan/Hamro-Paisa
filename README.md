@@ -1,2 +1,2 @@
 # MAUI-Hamro-Paisa
-MAUI Blazor Hybrid
+A MAUI Blazor Hybrid desktop application designed for personal expense tracking. 
