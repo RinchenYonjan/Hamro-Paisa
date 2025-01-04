@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto Condensed';
+}
+
+body {
+    background-color: #344e41;
+    display: inline-block;
+}
+
+.top-container {
+    display:flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.row-4 {
+    background-color: #dad7cd;
+    border: 2px solid black;
+    margin: 16px
+}
+
+.row-4 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.inside-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-list {
+    background-color: #dad7cd;
+    border: 2px solid black;
+    margin: 16px
+}
+
+.dept-list {
+    background-color: #dad7cd;
+    border: 2px solid black;
+    margin: 16px
+}
+
+.expenses-list{
+    background-color: #dad7cd;
+    border: 2px solid black;
+    margin: 16px
+}

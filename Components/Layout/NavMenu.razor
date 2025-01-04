@@ -1,0 +1,48 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""><b>Hamro</b> Paisa</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="overview" Match="NavLinkMatch.All">
+                <span class="bi bi-grid-fill h4" aria-hidden="true"></span> Overview
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="balance">
+                <span class="bi bi-wallet-fill h4" aria-hidden="true"></span> Balance
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="transaction">
+                <span class="bi bi-arrow-left-right h4" aria-hidden="true"></span> Transactions
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="dept">
+                <span class="bi bi-cash-stack h4" aria-hidden="true"></span> Depts
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="expense">
+                <span class="bi bi-receipt h4" aria-hidden="true"></span> Expenses
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="savinggoal">
+                <span class="bi bi-piggy-bank-fill h4" aria-hidden="true"></span> Saving Goal
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="setting">
+                <span class="bi bi-gear-fill h4" aria-hidden="true"></span> Setting
+            </NavLink>
+        </div>
+    </nav>
+    <button>Logout</button>
+</div>
