@@ -79,7 +79,9 @@
         }
 
 .nav-scrollable[b-f259teh2u5] {
-    display: none;
+    background-color: #1d3557;
+    display: flex;
+    align-content: center;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable[b-f259teh2u5] {

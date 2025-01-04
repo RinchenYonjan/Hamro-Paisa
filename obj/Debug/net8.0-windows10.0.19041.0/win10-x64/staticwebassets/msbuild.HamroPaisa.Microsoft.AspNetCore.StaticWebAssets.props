@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>iwdg2p9t5l</Fingerprint>
-      <Integrity>nj9pKRR2yJ3MTIZvKNUJ74xUDFuqdbDIOU9yi01n2q0=</Integrity>
+      <Fingerprint>1rqwq9bgll</Fingerprint>
+      <Integrity>k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HamroPaisa.styles.css'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ot2e122ydg</Fingerprint>
-      <Integrity>NHHH+4VBLh2v/9ZsBo4VoqS9iifOiYoISxzR+MrnkQE=</Integrity>
+      <Fingerprint>sm1vjpj9ri</Fingerprint>
+      <Integrity>/H6HjBvHdojcHAUZMIRtm+JpjPCcYBYCMHGf+mkHQsQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

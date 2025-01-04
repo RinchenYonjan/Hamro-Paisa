@@ -512,7 +512,7 @@
       <PackagePath>wwwroot\HamroPaisa.styles.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\HamroPaisa.bundle.scp.css">
-      <PackagePath>wwwroot\HamroPaisa.iwdg2p9t5l.bundle.scp.css</PackagePath>
+      <PackagePath>wwwroot\HamroPaisa.1rqwq9bgll.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
