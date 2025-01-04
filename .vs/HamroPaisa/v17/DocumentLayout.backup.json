@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Application Development\\HamroPaisa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "Components\\_Imports.razor",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\_Imports.razor",
-              "RelativeToolTip": "Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T05:34:58.021Z",
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\style.css",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
+              "RelativeToolTip": "wwwroot\\style.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-04T13:08:24.393Z",
               "EditorCaption": ""
             }
           ]

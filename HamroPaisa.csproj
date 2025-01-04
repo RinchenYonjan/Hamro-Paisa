@@ -77,7 +77,6 @@
       <Folder Include="HamroPaisa\ViewModel\" />
       <Folder Include="HamroPaisa\View\" />
       <Folder Include="HamroPaisa\Services\" />
-      <Folder Include="wwwroot\assests\" />
       <Folder Include="wwwroot\js\" />
     </ItemGroup>
 

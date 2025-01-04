@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "duktPNp+P/ZAVcCAntoAyYfsi6jG0A4EsvSQ3VAjnNg=",
+  "Hash": "z+FyeZRH2zinyOaziYLVlBo6d6vl+y6HKkWIuieuHqg=",
   "Source": "HamroPaisa",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "1rqwq9bgll",
-      "Integrity": "k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=",
+      "Fingerprint": "ubbh9mt96t",
+      "Integrity": "ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\HamroPaisa.styles.css"
@@ -52,11 +52,95 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "1rqwq9bgll",
-      "Integrity": "k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=",
+      "Fingerprint": "ubbh9mt96t",
+      "Integrity": "ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\HamroPaisa.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\bill.png",
+      "SourceId": "HamroPaisa",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Application Development\\HamroPaisa\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assests/bill#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "du9dvk6j7q",
+      "Integrity": "6x2P7Fk2WYzsc1/ZfMTXZD3+ZF9CYjEc59Hod88ONWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assests\\bill.png"
+    },
+    {
+      "Identity": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\money.png",
+      "SourceId": "HamroPaisa",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Application Development\\HamroPaisa\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assests/money#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqt0i4xage",
+      "Integrity": "hAiwK1O7bONiKHKYhRJUi5fs5z1Sjk5DJWHxTJoV9+E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assests\\money.png"
+    },
+    {
+      "Identity": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\saving.png",
+      "SourceId": "HamroPaisa",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Application Development\\HamroPaisa\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assests/saving#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15ll4lrucm",
+      "Integrity": "u3kExxM0MmD3UojsF+9Pda086Ku3PbWbOkXWKX70C70=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assests\\saving.png"
+    },
+    {
+      "Identity": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\user.png",
+      "SourceId": "HamroPaisa",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Application Development\\HamroPaisa\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assests/user#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ly6qnt35hr",
+      "Integrity": "Q9+paViEZuHhj0BHirfoPgVQFkh1vR2BRg3mwQSv1r4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assests\\user.png"
     },
     {
       "Identity": "D:\\Application Development\\HamroPaisa\\wwwroot\\css\\app.css",
@@ -178,14 +262,342 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o0zpo1a3bn",
-      "Integrity": "iJlc/k2tA5REhd/OfwBmqcHJSD2o2ibq9CAVRI0Coxg=",
+      "Fingerprint": "ymdvayh77l",
+      "Integrity": "yjgvvvw51HwB/+DmzY+2sqYyC7D+7NQmOsvHt4cEfnM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style.css"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "assests/bill.du9dvk6j7q.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\bill.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6x2P7Fk2WYzsc1/ZfMTXZD3+ZF9CYjEc59Hod88ONWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du9dvk6j7q"
+        },
+        {
+          "Name": "label",
+          "Value": "assests/bill.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6x2P7Fk2WYzsc1/ZfMTXZD3+ZF9CYjEc59Hod88ONWY="
+        }
+      ]
+    },
+    {
+      "Route": "assests/bill.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\bill.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6x2P7Fk2WYzsc1/ZfMTXZD3+ZF9CYjEc59Hod88ONWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6x2P7Fk2WYzsc1/ZfMTXZD3+ZF9CYjEc59Hod88ONWY="
+        }
+      ]
+    },
+    {
+      "Route": "assests/money.cqt0i4xage.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\money.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAiwK1O7bONiKHKYhRJUi5fs5z1Sjk5DJWHxTJoV9+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:22:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqt0i4xage"
+        },
+        {
+          "Name": "label",
+          "Value": "assests/money.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAiwK1O7bONiKHKYhRJUi5fs5z1Sjk5DJWHxTJoV9+E="
+        }
+      ]
+    },
+    {
+      "Route": "assests/money.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\money.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAiwK1O7bONiKHKYhRJUi5fs5z1Sjk5DJWHxTJoV9+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:22:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAiwK1O7bONiKHKYhRJUi5fs5z1Sjk5DJWHxTJoV9+E="
+        }
+      ]
+    },
+    {
+      "Route": "assests/saving.15ll4lrucm.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\saving.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3kExxM0MmD3UojsF+9Pda086Ku3PbWbOkXWKX70C70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15ll4lrucm"
+        },
+        {
+          "Name": "label",
+          "Value": "assests/saving.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3kExxM0MmD3UojsF+9Pda086Ku3PbWbOkXWKX70C70="
+        }
+      ]
+    },
+    {
+      "Route": "assests/saving.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\saving.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3kExxM0MmD3UojsF+9Pda086Ku3PbWbOkXWKX70C70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3kExxM0MmD3UojsF+9Pda086Ku3PbWbOkXWKX70C70="
+        }
+      ]
+    },
+    {
+      "Route": "assests/user.ly6qnt35hr.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q9+paViEZuHhj0BHirfoPgVQFkh1vR2BRg3mwQSv1r4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:21:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ly6qnt35hr"
+        },
+        {
+          "Name": "label",
+          "Value": "assests/user.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9+paViEZuHhj0BHirfoPgVQFkh1vR2BRg3mwQSv1r4="
+        }
+      ]
+    },
+    {
+      "Route": "assests/user.png",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q9+paViEZuHhj0BHirfoPgVQFkh1vR2BRg3mwQSv1r4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 08:21:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9+paViEZuHhj0BHirfoPgVQFkh1vR2BRg3mwQSv1r4="
+        }
+      ]
+    },
     {
       "Route": "css/app.css",
       "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\css\\app.css",
@@ -209,7 +621,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -246,7 +658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -291,7 +703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -336,7 +748,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -373,7 +785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -418,7 +830,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -455,7 +867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -500,7 +912,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 02:50:30 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -515,96 +927,6 @@
       ]
     },
     {
-      "Route": "HamroPaisa.1rqwq9bgll.bundle.scp.css",
-      "AssetFile": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\HamroPaisa.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5539"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:27:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1rqwq9bgll"
-        },
-        {
-          "Name": "label",
-          "Value": "HamroPaisa.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk="
-        }
-      ]
-    },
-    {
-      "Route": "HamroPaisa.1rqwq9bgll.styles.css",
-      "AssetFile": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\HamroPaisa.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5539"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:27:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1rqwq9bgll"
-        },
-        {
-          "Name": "label",
-          "Value": "HamroPaisa.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk="
-        }
-      ]
-    },
-    {
       "Route": "HamroPaisa.bundle.scp.css",
       "AssetFile": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\HamroPaisa.bundle.scp.css",
       "Selectors": [],
@@ -615,7 +937,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5539"
+          "Value": "5541"
         },
         {
           "Name": "Content-Type",
@@ -623,11 +945,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=\""
+          "Value": "\"ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:27:27 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -637,7 +959,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk="
+          "Value": "sha256-ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU="
         }
       ]
     },
@@ -652,7 +974,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5539"
+          "Value": "5541"
         },
         {
           "Name": "Content-Type",
@@ -660,11 +982,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk=\""
+          "Value": "\"ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:27:27 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -674,7 +996,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k+KbkTSycbKTucDEdZkM8sR14WtIDA+KkOvQr4TXvwk="
+          "Value": "sha256-ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU="
+        }
+      ]
+    },
+    {
+      "Route": "HamroPaisa.ubbh9mt96t.bundle.scp.css",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\HamroPaisa.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 13:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ubbh9mt96t"
+        },
+        {
+          "Name": "label",
+          "Value": "HamroPaisa.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU="
+        }
+      ]
+    },
+    {
+      "Route": "HamroPaisa.ubbh9mt96t.styles.css",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\HamroPaisa.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 13:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ubbh9mt96t"
+        },
+        {
+          "Name": "label",
+          "Value": "HamroPaisa.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZtuTLIV6WeTe2j3VsrqMHz32gn47z+TmrkVwf2keAVU="
         }
       ]
     },
@@ -701,7 +1113,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 04:53:47 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -738,7 +1150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 04:53:47 GMT"
+          "Value": "Sat, 04 Jan 2025 13:01:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -771,7 +1183,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "810"
+          "Value": "2301"
         },
         {
           "Name": "Content-Type",
@@ -779,11 +1191,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iJlc/k2tA5REhd/OfwBmqcHJSD2o2ibq9CAVRI0Coxg=\""
+          "Value": "\"yjgvvvw51HwB/+DmzY+2sqYyC7D+7NQmOsvHt4cEfnM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:25:35 GMT"
+          "Value": "Sat, 04 Jan 2025 13:10:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -793,12 +1205,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iJlc/k2tA5REhd/OfwBmqcHJSD2o2ibq9CAVRI0Coxg="
+          "Value": "sha256-yjgvvvw51HwB/+DmzY+2sqYyC7D+7NQmOsvHt4cEfnM="
         }
       ]
     },
     {
-      "Route": "style.o0zpo1a3bn.css",
+      "Route": "style.ymdvayh77l.css",
       "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -808,7 +1220,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "810"
+          "Value": "2301"
         },
         {
           "Name": "Content-Type",
@@ -816,11 +1228,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iJlc/k2tA5REhd/OfwBmqcHJSD2o2ibq9CAVRI0Coxg=\""
+          "Value": "\"yjgvvvw51HwB/+DmzY+2sqYyC7D+7NQmOsvHt4cEfnM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:25:35 GMT"
+          "Value": "Sat, 04 Jan 2025 13:10:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -830,7 +1242,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o0zpo1a3bn"
+          "Value": "ymdvayh77l"
         },
         {
           "Name": "label",
@@ -838,7 +1250,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iJlc/k2tA5REhd/OfwBmqcHJSD2o2ibq9CAVRI0Coxg="
+          "Value": "sha256-yjgvvvw51HwB/+DmzY+2sqYyC7D+7NQmOsvHt4cEfnM="
         }
       ]
     }

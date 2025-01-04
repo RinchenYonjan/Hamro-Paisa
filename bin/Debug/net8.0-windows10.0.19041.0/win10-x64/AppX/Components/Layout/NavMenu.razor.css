@@ -81,7 +81,7 @@
 .nav-scrollable {
     background-color: #1d3557;
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable {

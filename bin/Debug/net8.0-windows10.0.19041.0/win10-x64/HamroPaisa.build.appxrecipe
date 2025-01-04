@@ -40,6 +40,18 @@
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\bill.png">
+      <PackagePath>wwwroot\assests\bill.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\money.png">
+      <PackagePath>wwwroot\assests\money.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\saving.png">
+      <PackagePath>wwwroot\assests\saving.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\user.png">
+      <PackagePath>wwwroot\assests\user.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
     </AppxPackagedFile>
@@ -512,7 +524,7 @@
       <PackagePath>wwwroot\HamroPaisa.styles.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\HamroPaisa.bundle.scp.css">
-      <PackagePath>wwwroot\HamroPaisa.1rqwq9bgll.bundle.scp.css</PackagePath>
+      <PackagePath>wwwroot\HamroPaisa.ubbh9mt96t.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>

@@ -11,31 +11,32 @@
 </head>
 
 <body>
-    <!-- Top 4 information -->
-    <div class="top-container">
-        <div class="row-4">
-            <p>Total Balance</p>
-            <h3>Rs 25000</h3>
-        </div>
-        <div class="row-4">
-            <p>Total Expenses</p>
-            <h3>Rs 25000</h3>
-        </div>
-        <div class="row-4">
-            <p>Saving Goal</p>
-            <h3>Rs 25000</h3>
-        </div>
-        <div class="row-4">
-            <p>Total Dept</p>
-            <h3>Rs 25000</h3>
-        </div>
+
+    <div class="user-section">
+
+    <div class="search-bar">
+        <form action="/search" method="get">
+            <input type="search" name="search-field" placeholder="Search here..." required>
+            <button type="submit">Search</button>
+        </form>
     </div>
 
-    <!-- Three List -->
-    <div class="container">
-        <div class="transaction-list">
+    <!-- Top Button containers -->
+    <div class="button-container">
+        <button id="buttonAdd">Add</button>
+        <button id="buttonSort">Sort</button>
+        <button id="buttonAsc">Ascending</button>
+        <button id="buttonDes">Decending</button>
+    </div>
+
+    </div>
+
+    <!-- List container -->
+    <div class="unique-container">
+        <div class="unqiue-list">
             <h3>Account Balance</h3>
         </div>
     </div>
+
 </body>
 </html>

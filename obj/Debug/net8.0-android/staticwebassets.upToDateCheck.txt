@@ -1,3 +1,7 @@
+wwwroot\assests\bill.png
+wwwroot\assests\money.png
+wwwroot\assests\saving.png
+wwwroot\assests\user.png
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map

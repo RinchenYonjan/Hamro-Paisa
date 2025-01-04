@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\HamroPaisa.styles.css"
     },
     {
+      "Id": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\bill.png",
+      "PackagePath": "staticwebassets\\assests\\bill.png"
+    },
+    {
+      "Id": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\money.png",
+      "PackagePath": "staticwebassets\\assests\\money.png"
+    },
+    {
+      "Id": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\saving.png",
+      "PackagePath": "staticwebassets\\assests\\saving.png"
+    },
+    {
+      "Id": "D:\\Application Development\\HamroPaisa\\wwwroot\\assests\\user.png",
+      "PackagePath": "staticwebassets\\assests\\user.png"
+    },
+    {
       "Id": "D:\\Application Development\\HamroPaisa\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

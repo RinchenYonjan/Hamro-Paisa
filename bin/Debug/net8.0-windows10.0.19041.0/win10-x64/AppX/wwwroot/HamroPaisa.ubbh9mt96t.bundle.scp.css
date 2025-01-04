@@ -160,7 +160,7 @@ main[b-7cthg0i3tv] {
 .nav-scrollable[b-f259teh2u5] {
     background-color: #1d3557;
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable[b-f259teh2u5] {
