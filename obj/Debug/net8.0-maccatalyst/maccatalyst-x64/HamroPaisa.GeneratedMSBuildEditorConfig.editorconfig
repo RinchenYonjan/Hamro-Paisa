@@ -3,6 +3,9 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = 
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
 build_property.TargetFramework = net8.0-maccatalyst
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -42,6 +45,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCYWxhbmNlLnJhem9y
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Application Development/HamroPaisa/Components/Pages/CustomDialog.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21EaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 

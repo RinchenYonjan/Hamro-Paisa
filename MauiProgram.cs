@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using MudBlazor.Services;
 
 namespace HamroPaisa
 {
@@ -15,12 +16,14 @@ namespace HamroPaisa
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddMudServices();
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
             return builder.Build();
         }
     }
 }
+

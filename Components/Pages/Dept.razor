@@ -1,4 +1,5 @@
 ﻿@page "/dept"
+@inject IDialogService DialogService
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +24,7 @@
 
         <!-- Top Button containers -->
         <div class="button-container">
-            <button id="buttonAdd">Add</button>
+            <MudButton OnClick="OpenDialog">Add</MudButton>
             <button id="buttonSort">Sort</button>
             <button id="buttonAsc">Ascending</button>
             <button id="buttonDes">Decending</button>
@@ -42,5 +43,32 @@
 </html>
 
 @code {
+
+    // Add button code
+    private async Task OpenDialog()
+    {
+        // Define dialog options
+        var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Medium };
+
+        // Show the dialog
+        var dialog = DialogService.Show<CustomDialog>("Custom Dialog", options);
+
+        // Await the dialog result
+        var result = await dialog.Result;
+
+        // Handle cancellation or data retrieval
+        if (result == null) // If result is null, the dialog was canceled
+        {
+            Console.WriteLine("Dialog was canceled.");
+        }
+        else
+        {
+            // Access the data returned from the dialog
+            var userInput = result.Data;
+            Console.WriteLine($"User entered: {userInput}");
+
+        }
+    }
+
 
 }

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Application Development\\HamroPaisa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\hamropaisacollection\\repositories\\ipaisarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:hamropaisacollection\\repositories\\ipaisarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\hamropaisacollection\\repositories\\paisarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:hamropaisacollection\\repositories\\paisarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\hamropaisacollection\\services\\paisaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:hamropaisacollection\\services\\paisaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaisaService.cs",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Services\\PaisaService.cs",
+              "RelativeDocumentMoniker": "HamroPaisaCollection\\Services\\PaisaService.cs",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Services\\PaisaService.cs",
+              "RelativeToolTip": "HamroPaisaCollection\\Services\\PaisaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:00:03.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaisaRepository.cs",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Repositories\\PaisaRepository.cs",
+              "RelativeDocumentMoniker": "HamroPaisaCollection\\Repositories\\PaisaRepository.cs",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Repositories\\PaisaRepository.cs",
+              "RelativeToolTip": "HamroPaisaCollection\\Repositories\\PaisaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:19:03.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
-              "RelativeDocumentMoniker": "wwwroot\\style.css",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
-              "RelativeToolTip": "wwwroot\\style.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-04T13:08:24.393Z",
+              "Title": "IPaisaRepository.cs",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Repositories\\IPaisaRepository.cs",
+              "RelativeDocumentMoniker": "HamroPaisaCollection\\Repositories\\IPaisaRepository.cs",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Repositories\\IPaisaRepository.cs",
+              "RelativeToolTip": "HamroPaisaCollection\\Repositories\\IPaisaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:18:53.773Z",
               "EditorCaption": ""
             }
           ]

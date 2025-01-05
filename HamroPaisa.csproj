@@ -70,13 +70,12 @@
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+        <PackageReference Include="MudBlazor" Version="7.15.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="HamroPaisa\Models\" />
-      <Folder Include="HamroPaisa\ViewModel\" />
-      <Folder Include="HamroPaisa\View\" />
-      <Folder Include="HamroPaisa\Services\" />
+      <Folder Include="HamroPaisaCollection\ViewModel\" />
+      <Folder Include="HamroPaisaCollection\View\" />
       <Folder Include="wwwroot\js\" />
     </ItemGroup>
 

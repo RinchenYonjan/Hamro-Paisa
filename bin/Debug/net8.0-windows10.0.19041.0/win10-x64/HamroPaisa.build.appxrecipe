@@ -307,6 +307,12 @@
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.filesystemglobbing\8.0.0\lib\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll">
       <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.localization\8.0.8\lib\net8.0\Microsoft.Extensions.Localization.dll">
+      <PackagePath>Microsoft.Extensions.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.localization.abstractions\8.0.8\lib\net8.0\Microsoft.Extensions.Localization.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Localization.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.logging\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
     </AppxPackagedFile>
@@ -396,6 +402,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\mudblazor\7.15.0\lib\net8.0\MudBlazor.dll">
+      <PackagePath>MudBlazor.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
@@ -519,6 +528,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.maui.core\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.css">
+      <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.js">
+      <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\HamroPaisa.styles.css">
       <PackagePath>wwwroot\HamroPaisa.styles.css</PackagePath>

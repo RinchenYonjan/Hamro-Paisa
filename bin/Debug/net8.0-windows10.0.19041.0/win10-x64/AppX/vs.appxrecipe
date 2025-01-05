@@ -30,301 +30,301 @@
     <AppXManifest Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-04T13:11:11.793</Modified>
+      <Modified>2025-01-05T03:31:12.079</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-04T13:11:11.672</Modified>
+      <Modified>2025-01-05T03:04:57.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HamroPaisa.runtimeconfig.json">
       <PackagePath>HamroPaisa.runtimeconfig.json</PackagePath>
-      <Modified>2025-01-04T13:09:29.870</Modified>
+      <Modified>2025-01-05T03:05:42.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HamroPaisa.dll">
       <PackagePath>HamroPaisa.dll</PackagePath>
-      <Modified>2025-01-04T13:11:11.441</Modified>
+      <Modified>2025-01-05T03:27:13.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HamroPaisa.exe</PackagePath>
-      <Modified>2025-01-04T13:11:11.445</Modified>
+      <Modified>2025-01-05T03:27:13.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-01-04T13:01:41.672</Modified>
+      <Modified>2025-01-04T14:58:27.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\bill.png">
       <PackagePath>wwwroot\assests\bill.png</PackagePath>
-      <Modified>2025-01-04T08:18:47.312</Modified>
+      <Modified>2025-01-04T14:58:28.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\money.png">
       <PackagePath>wwwroot\assests\money.png</PackagePath>
-      <Modified>2025-01-04T08:22:15.285</Modified>
+      <Modified>2025-01-04T14:58:28.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\saving.png">
       <PackagePath>wwwroot\assests\saving.png</PackagePath>
-      <Modified>2025-01-04T08:19:35.593</Modified>
+      <Modified>2025-01-04T14:58:28.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\assests\user.png">
       <PackagePath>wwwroot\assests\user.png</PackagePath>
-      <Modified>2025-01-04T08:21:03.627</Modified>
+      <Modified>2025-01-04T14:58:28.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2025-01-04T13:01:43.006</Modified>
+      <Modified>2025-01-04T14:58:28.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
-      <Modified>2025-01-04T13:01:43.006</Modified>
+      <Modified>2025-01-04T14:58:28.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
-      <Modified>2025-01-04T13:01:43.008</Modified>
+      <Modified>2025-01-04T14:58:28.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
-      <Modified>2025-01-04T13:01:43.009</Modified>
+      <Modified>2025-01-04T14:58:28.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2025-01-04T13:01:43.009</Modified>
+      <Modified>2025-01-05T02:38:29.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\wwwroot\style.css">
       <PackagePath>wwwroot\style.css</PackagePath>
-      <Modified>2025-01-04T13:10:47.978</Modified>
+      <Modified>2025-01-05T03:29:20.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.989</Modified>
+      <Modified>2025-01-05T03:04:53.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.990</Modified>
+      <Modified>2025-01-05T03:04:53.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.990</Modified>
+      <Modified>2025-01-05T03:04:53.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.990</Modified>
+      <Modified>2025-01-05T03:04:53.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.991</Modified>
+      <Modified>2025-01-05T03:04:53.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-01-04T13:01:42.974</Modified>
+      <Modified>2025-01-04T14:58:27.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-04T13:01:42.975</Modified>
+      <Modified>2025-01-05T03:04:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.975</Modified>
+      <Modified>2025-01-05T03:04:54.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.976</Modified>
+      <Modified>2025-01-05T03:04:54.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.976</Modified>
+      <Modified>2025-01-05T03:04:54.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.976</Modified>
+      <Modified>2025-01-05T03:04:54.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.977</Modified>
+      <Modified>2025-01-05T03:04:54.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.977</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.977</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.977</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.978</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.978</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.978</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.978</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.979</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.979</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.979</Modified>
+      <Modified>2025-01-05T03:04:54.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.979</Modified>
+      <Modified>2025-01-05T03:04:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.979</Modified>
+      <Modified>2025-01-05T03:04:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.980</Modified>
+      <Modified>2025-01-05T03:04:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.980</Modified>
+      <Modified>2025-01-05T03:04:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.980</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.980</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.981</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.981</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.981</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.981</Modified>
+      <Modified>2025-01-05T03:04:54.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.982</Modified>
+      <Modified>2025-01-05T03:04:54.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.982</Modified>
+      <Modified>2025-01-05T03:04:54.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.982</Modified>
+      <Modified>2025-01-05T03:04:54.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.982</Modified>
+      <Modified>2025-01-05T03:04:54.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.983</Modified>
+      <Modified>2025-01-05T03:04:54.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.983</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.983</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.983</Modified>
+      <Modified>2025-01-05T03:04:54.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.984</Modified>
+      <Modified>2025-01-05T03:04:54.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.984</Modified>
+      <Modified>2025-01-05T03:04:54.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.984</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.984</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.985</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.985</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.985</Modified>
+      <Modified>2025-01-05T03:04:54.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.986</Modified>
+      <Modified>2025-01-05T03:04:54.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.986</Modified>
+      <Modified>2025-01-05T03:04:54.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.986</Modified>
+      <Modified>2025-01-05T03:04:54.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.986</Modified>
+      <Modified>2025-01-05T03:04:54.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.987</Modified>
+      <Modified>2025-01-05T03:04:54.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.987</Modified>
+      <Modified>2025-01-05T03:04:54.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.987</Modified>
+      <Modified>2025-01-05T03:04:54.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.988</Modified>
+      <Modified>2025-01-05T03:04:54.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.988</Modified>
+      <Modified>2025-01-05T03:04:54.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-04T13:01:42.989</Modified>
+      <Modified>2025-01-05T03:04:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HamroPaisa.deps.json">
       <PackagePath>HamroPaisa.deps.json</PackagePath>
-      <Modified>2025-01-04T13:11:11.601</Modified>
+      <Modified>2025-01-05T03:05:42.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -409,6 +409,14 @@
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.filesystemglobbing\8.0.0\lib\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll">
       <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
       <Modified>2023-10-31T14:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.localization\8.0.8\lib\net8.0\Microsoft.Extensions.Localization.dll">
+      <PackagePath>Microsoft.Extensions.Localization.dll</PackagePath>
+      <Modified>2024-07-19T22:51:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.localization.abstractions\8.0.8\lib\net8.0\Microsoft.Extensions.Localization.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Localization.Abstractions.dll</PackagePath>
+      <Modified>2024-07-19T22:51:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.extensions.logging\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -529,6 +537,10 @@
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-06-26T19:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\mudblazor\7.15.0\lib\net8.0\MudBlazor.dll">
+      <PackagePath>MudBlazor.dll</PackagePath>
+      <Modified>2024-10-29T20:30:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
@@ -680,7 +692,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>HamroPaisa.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-01-04T13:11:06.417</Modified>
+      <Modified>2025-01-05T03:31:10.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -694,21 +706,29 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2024-10-29T21:54:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.css">
+      <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.css</PackagePath>
+      <Modified>2024-10-29T20:30:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yonza\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.js">
+      <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.js</PackagePath>
+      <Modified>2024-10-29T20:30:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\HamroPaisa.styles.css">
       <PackagePath>wwwroot\HamroPaisa.styles.css</PackagePath>
-      <Modified>2025-01-04T13:01:42.992</Modified>
+      <Modified>2025-01-05T03:04:44.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\HamroPaisa.bundle.scp.css">
       <PackagePath>wwwroot\HamroPaisa.ubbh9mt96t.bundle.scp.css</PackagePath>
-      <Modified>2025-01-04T13:01:42.993</Modified>
+      <Modified>2025-01-05T03:04:44.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
-      <Modified>2025-01-04T13:01:41.658</Modified>
+      <Modified>2025-01-04T14:58:27.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
-      <Modified>2025-01-04T13:01:41.659</Modified>
+      <Modified>2025-01-05T03:04:25.524</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

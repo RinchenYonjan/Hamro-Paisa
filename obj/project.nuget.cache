@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XOzyQDFpya4=",
+  "dgSpecHash": "1Lyt8JdFW2w=",
   "success": true,
   "projectFilePath": "D:\\Application Development\\HamroPaisa\\HamroPaisa.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,8 @@
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.10\\microsoft.extensions.fileproviders.embedded.8.0.10.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.localization\\8.0.8\\microsoft.extensions.localization.8.0.8.nupkg.sha512",
+    "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\8.0.8\\microsoft.extensions.localization.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.extensions.logging.debug\\8.0.1\\microsoft.extensions.logging.debug.8.0.1.nupkg.sha512",
@@ -46,6 +48,7 @@
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\microsoft.windowsappsdk.1.5.240627000.nupkg.sha512",
+    "C:\\Users\\yonza\\.nuget\\packages\\mudblazor\\7.15.0\\mudblazor.7.15.0.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\yonza\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
