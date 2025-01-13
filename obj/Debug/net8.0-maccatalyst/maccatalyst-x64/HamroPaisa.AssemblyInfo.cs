@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HamroPaisa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7823df120524349c9468b3454d4c1315d634e525")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+26fda726a178dc0c942b53e10d2e8adc28188dd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("HamroPaisa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HamroPaisa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

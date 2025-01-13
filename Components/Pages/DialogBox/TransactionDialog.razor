@@ -1,4 +1,4 @@
-﻿@using HamroPaisa.HamroPaisaCollection.Models
+﻿@inject IPaisaService Paisa
 
 <MudDialog>
     <TitleContent>
@@ -23,6 +23,7 @@
             <!-- Dropdown/Select -->
             <label>Type:</label>
             <select @bind="selectedType" id="select-type">
+                <option value=""> </option>
                 <option value="Income">Income</option>
                 <option value="Expense">Expense</option>
                 <option value="Dept">Dept</option>
@@ -42,16 +43,17 @@
     [CascadingParameter]
     private MudDialogInstance MudDialog { get; set; }
 
+
+    // Declaring vairable to store
     private string description;
     private DateTime? date;
     private decimal? amount;
     private string selectedType;
 
 
-
-
-    // Collection to store transactions
+    // Collection to store transactions data
     private List<PaisaModel> transactions = new();
+
 
     // Fields to hold the total values
     private decimal totalIncome;
@@ -59,8 +61,10 @@
     private decimal totalDebt;
     private decimal totalSaving;
 
+
     // Method to cancel the dialog
     private void Cancel() => MudDialog.Cancel();
+
 
     // Method to calculate totals
     private void CalculateTotal()
@@ -83,7 +87,7 @@
     {
         if (!string.IsNullOrWhiteSpace(description) && date.HasValue && amount.HasValue && !string.IsNullOrWhiteSpace(selectedType))
         {
-            transactions.Add(new PaisaModel
+            Paisa.AddTransaction(new PaisaModel
             {
                 Description = description,
                 Date = date.Value,
@@ -98,6 +102,7 @@
             selectedType = "Income";
 
             CalculateTotal();
+            MudDialog.Close(DialogResult.Ok(true));
         }
         Cancel();
     }

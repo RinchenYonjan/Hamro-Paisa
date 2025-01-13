@@ -7,7 +7,10 @@ namespace HamroPaisa.HamroPaisaCollection.Services
     {
 
         IEnumerable<PaisaModel> GetAllPaisa();
-        
+       
+
+
+        void AddTransaction(PaisaModel transaction);
     }
 }
 

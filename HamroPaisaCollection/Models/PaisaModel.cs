@@ -16,7 +16,7 @@ namespace HamroPaisa.HamroPaisaCollection.Models
         public decimal Saving { get; set; }
 
     
-        private PaisaModel PaisaModelObject = new PaisaModel();
+        //private PaisaModel PaisaModelObject = new PaisaModel();
 
 
     }

@@ -62,9 +62,19 @@
         <div class="inside-container">       
             <div class="dept-list">
                 <h4>Depts Breakdown</h4>
+                <ul>@foreach (var item in paisamodel)
+                    {
+
+                    }
+                </ul>
             </div>
             <div class="expenses-list">
                 <h4>Expenses Breakdown</h4>
+                <ul>@foreach (var item in paisamodel)
+                    {
+
+                    }
+                </ul>
             </div>
         </div>
     </div>
@@ -82,12 +92,29 @@
     private decimal totalExpense;
     private decimal totalDept;
 
+    private class Transaction()
+    {
+        private int Id { get; set; }
+        private string Description { get; set; }
+        private DateTime Date { get; set; }
+        private decimal Amount { get; set; }
+    }
 
-    private int Id { get; set; }
-    private string Title { get; set; }
-    private string Amount { get; set; }
-    private DateTime Date { get; set; } 
-    
+    private class Expense()
+    {
+        private int Id { get; set; }
+        private string Description { get; set; }
+        private DateTime Date { get; set; }
+        private decimal Amount { get; set; }
+    }
+
+    private class Dept()
+    {
+        private int Id { get; set; }
+        private string Description { get; set; }
+        private DateTime Date { get; set; }
+        private decimal Amount { get; set; }
+    }
 
 
     List<PaisaModel> paisamodel = new List<PaisaModel>(); 

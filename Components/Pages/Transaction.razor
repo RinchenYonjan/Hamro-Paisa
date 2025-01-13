@@ -1,5 +1,6 @@
 ﻿@page "/transaction"
 @inject IDialogService DialogService
+@inject IPaisaService PaisaService
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +25,7 @@
 
         <!-- Top Button containers -->
         <div class="button-container">
-            <MudButton @onclick="OpenDialog" Variant="Variant.Filled" Color="Color.Primary">Add</MudButton>
+            <MudButton @onclick="OpenTransactionDialog" Variant="Variant.Filled" Color="Color.Primary">Add</MudButton>
             <MudButton @onclick="Sort" Variant="Variant.Filled" Color="Color.Primary">Sort</MudButton>
             <MudButton @onclick="AscendingOrder" Variant="Variant.Filled" Color="Color.Primary">Ascending</MudButton>
             <MudButton @onclick="DescendingOrder" Variant="Variant.Filled" Color="Color.Primary">Decending</MudButton>
@@ -36,6 +37,17 @@
     <div class="unique-container">
         <div class="unqiue-list">
             <h3>Recent Transaction</h3>
+            <ul>
+                @foreach (var transaction in paisamodel)
+                {
+                    <li class="transaction-item">
+                        <span>@transaction.Description</span>&nbsp;
+                        <span>@transaction.Date.ToString("yyyy-MM-dd")</span>&nbsp;
+                        <span>@transaction.Amount.ToString()</span>&nbsp;
+                        <span class="@(transaction.Type == "Income" ? "text-success" : "text-danger")">@transaction.Type</span>
+                    </li>
+                }
+            </ul>
         </div>
     </div>
 
@@ -45,20 +57,31 @@
 
 @code {
 
+    // Declaring list
+    List<PaisaModel> paisamodel = new List<PaisaModel>();
+
+
+
     // Search Button event
     private void Search()
     {
-        
+
     }
 
 
-    // Open Dialog box event
-    private Task OpenDialog()
+
+    private async Task OpenTransactionDialog()
     {
         var options = new DialogOptions { CloseOnEscapeKey = true };
+        var dialog = await DialogService.ShowAsync<TransactionDialog>("Transaction Dialog", options);
+        var result = await dialog.Result;
 
-        return DialogService.ShowAsync<TransactionDialog>("Transaction Dialog", options);
+        if (!result.Canceled)
+        {
+            paisamodel = (List<PaisaModel>)PaisaService.GetAllPaisa();
+        }
     }
+
 
     // Sort button event
     private void Sort()

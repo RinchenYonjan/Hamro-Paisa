@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using HamroPaisa.HamroPaisaCollection.Services;
+using Microsoft.Extensions.Logging;
 using MudBlazor.Services;
 
 namespace HamroPaisa
@@ -17,6 +18,7 @@ namespace HamroPaisa
 
             builder.Services.AddMauiBlazorWebView();
             builder.Services.AddMudServices();
+            builder.Services.AddSingleton<IPaisaService, PaisaServices>();
             //builder.Services.AddSingleton<LocalDbService>();
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();

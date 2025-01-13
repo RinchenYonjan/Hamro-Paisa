@@ -50,14 +50,6 @@
         }
 
 
-        // Open Dialog box event
-        private Task OpenDialog()
-        {
-            var options = new DialogOptions { CloseOnEscapeKey = true };
-
-            return DialogService.ShowAsync<SavingDialog>("Saving Dialog", options);
-        }
-
         // Sort button event
         private void Sort()
         {

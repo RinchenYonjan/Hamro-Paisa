@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Application Development\\HamroPaisa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\hamropaisacollection\\services\\paisaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:hamropaisacollection\\services\\paisaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\pages\\dialogbox\\transactiondialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\pages\\dialogbox\\transactiondialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\pages\\saving.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\pages\\saving.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\pages\\dept.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\pages\\dept.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Saving.razor",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Saving.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Saving.razor",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Saving.razor",
-              "RelativeToolTip": "Components\\Pages\\Saving.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T01:43:11.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dept.razor",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Dept.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Dept.razor",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Dept.razor",
-              "RelativeToolTip": "Components\\Pages\\Dept.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T01:41:19.239Z",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:17:28.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TransactionDialog.razor",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\DialogBox\\TransactionDialog.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\DialogBox\\TransactionDialog.razor",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\DialogBox\\TransactionDialog.razor",
-              "RelativeToolTip": "Components\\Pages\\DialogBox\\TransactionDialog.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T14:56:46.866Z",
+              "Title": "PaisaService.cs",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Services\\PaisaService.cs",
+              "RelativeDocumentMoniker": "HamroPaisaCollection\\Services\\PaisaService.cs",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Services\\PaisaService.cs",
+              "RelativeToolTip": "HamroPaisaCollection\\Services\\PaisaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T03:18:20.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Transaction.razor",
               "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Transaction.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Transaction.razor",
               "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Transaction.razor",
               "RelativeToolTip": "Components\\Pages\\Transaction.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T14:54:33.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T14:54:33.592Z"
             }
           ]
         }
