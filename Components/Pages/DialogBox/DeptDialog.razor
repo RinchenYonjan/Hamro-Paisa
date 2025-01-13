@@ -1,0 +1,50 @@
+﻿
+<MudDialog>
+    <TitleContent>
+        Please fill the form below
+    </TitleContent>
+    <DialogContent>
+        <form action="/submit-form" method="post">
+
+            <!-- Description -->
+            <label>Description</label><br>
+            <input type="text" id="description-field" placeholder="Write your description" required><br><br>
+
+            <!-- Email Input -->
+            <label>Date</label><br>
+            <input type="datetime-local" id="datetime-field" placeholder="Select your date" required><br><br>
+
+            <!-- Password Input -->
+            <label>Amount</label><br>
+            <input type="number" id="amount-field" placeholder="0" required><br><br>
+
+            <!-- Dropdown/Select -->
+            <label>Type:</label>
+            <select id="select-type">
+                <option value="cleared">Cleared</option>
+                <option value="upcoming">Upcoming</option>
+            </select><br><br>
+
+        </form>
+    </DialogContent>
+    <DialogActions>
+        <MudButton @onclick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" onclick="AddDept">Ok</MudButton>
+    </DialogActions>
+</MudDialog>
+
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+
+    // This method will be called when cancel button is clicked
+    private void Cancel() => MudDialog.Cancel();
+
+    void AddDept()
+    {
+        
+    }
+
+}

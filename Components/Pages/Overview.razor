@@ -1,4 +1,7 @@
-﻿@page "/"
+﻿@using HamroPaisaCollection.Models
+@* @inject LocalDbService local *@
+@page "/"
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,29 +20,28 @@
             <img src="/assests/user.png" alt="user"/>
             <div class="data">
                 <p>Total Balance</p>
-                <h3>Rs 25000</h3>
+                <h3>@totalBalance</h3>
             </div>
         </div>
         <div class="row-4">
-            <img src="/assests/bill.png" alt="bill" />
+            <img src="/assests/saving.png" alt="bill" />
             <div class="data">
-            <p>Total Expenses</p>
-            <h3>Rs 5000</h3>
+                <p>Total Inflow</p>
+                <h3>@totalIncome</h3>
             </div>
         </div> 
         <div class="row-4">
-            <img src="/assests/saving.png" alt="saving" />
+            <img src="/assests/bill.png" alt="saving" />
             <div class="data">
-            <p>Saving Goal</p>
-            <h3>Rs 44000</h3>
-            <h4>Rs 15000</h4>
+                <p>Total Outflow</p>
+                <h3>@totalExpense</h3>
             </div>
         </div>
         <div class="row-4">
             <img src="/assests/money.png" alt="money" />
-                <div class="data">
-            <p>Total Dept</p>
-            <h3>Rs 2000</h3>
+            <div class="data">
+                <p>Total Dept</p>
+                <h3>@totalDept</h3>
             </div>
         </div>
     </div>
@@ -47,23 +49,46 @@
     <!-- Three List -->
     <div class="container">
         <div class="transaction-list">
-        <h3>Recent Transactions</h3>
-        <ol class="list-group">
-            <li>NIC ASIA</li>
-            <li>New Fashion Clothing</li>
-            <li>Delicious Food Restaurant</li>
-        </ol>
+            <h4>Recent Transactions</h4>
+            <ul>
+                @foreach (var item in paisamodel)
+                {
+                    @* <li>@item.Id @item.Title - @item.Type</li> *@
+                    @* <li>@item.amount</li> *@
+                }
+            </ul>
         </div>
         <!-- Two List -->
-        <div class="inside-container">        
-        <div class="dept-list">
-         <h3>Depts Breakdown</h3>
-        </div>
-        <div class="expenses-list">
-            <h3>Expenses Breakdown</h3>
-        </div>
+        <div class="inside-container">       
+            <div class="dept-list">
+                <h4>Depts Breakdown</h4>
+            </div>
+            <div class="expenses-list">
+                <h4>Expenses Breakdown</h4>
+            </div>
         </div>
     </div>
 
 </body>
 </html>
+
+
+@code {
+    Transaction transaction = new Transaction();
+
+    //These fields are meant to hold the total values after CalculateTotals() method is called.
+    private decimal totalBalance;
+    private decimal totalIncome;
+    private decimal totalExpense;
+    private decimal totalDept;
+
+
+    private int Id { get; set; }
+    private string Title { get; set; }
+    private string Amount { get; set; }
+    private DateTime Date { get; set; } 
+    
+
+
+    List<PaisaModel> paisamodel = new List<PaisaModel>(); 
+}

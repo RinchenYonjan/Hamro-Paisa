@@ -1,0 +1,104 @@
+﻿@using HamroPaisa.HamroPaisaCollection.Models
+
+<MudDialog>
+    <TitleContent>
+        Please fill the form below
+    </TitleContent>
+    <DialogContent>
+
+        <form>
+
+            <!-- Description -->
+            <label>Description</label><br>
+            <input type="text" @bind="description" id="description-field" placeholder="Write your description" required><br><br>
+
+            <!-- Date Input -->
+            <label>Date</label><br>
+            <input type="datetime-local" @bind="date" id="datetime-field" placeholder="Select your date" required><br><br>
+
+            <!-- Amount Input -->
+            <label>Amount</label><br>
+            <input type="number" @bind="amount" id="amount-field" placeholder="0" required><br><br>
+
+            <!-- Dropdown/Select -->
+            <label>Type:</label>
+            <select @bind="selectedType" id="select-type">
+                <option value="Income">Income</option>
+                <option value="Expense">Expense</option>
+                <option value="Dept">Dept</option>
+                <option value="Saving">Saving</option>
+            </select><br><br>
+
+        </form>
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="AddTransaction">Ok</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+    private string description;
+    private DateTime? date;
+    private decimal? amount;
+    private string selectedType;
+
+
+
+
+    // Collection to store transactions
+    private List<PaisaModel> transactions = new();
+
+    // Fields to hold the total values
+    private decimal totalIncome;
+    private decimal totalExpense;
+    private decimal totalDebt;
+    private decimal totalSaving;
+
+    // Method to cancel the dialog
+    private void Cancel() => MudDialog.Cancel();
+
+    // Method to calculate totals
+    private void CalculateTotal()
+    {
+        totalIncome = transactions
+            .Where(t => t.Type == "Income")
+            .Sum(t => t.Amount);
+
+        totalExpense = transactions
+            .Where(t => t.Type == "Expense")
+            .Sum(t => t.Amount);
+
+        totalDebt = transactions
+            .Where(t => t.Type == "Debt")
+            .Sum(t => t.Amount);
+    }
+
+    // Method to add a transaction
+    private void AddTransaction()
+    {
+        if (!string.IsNullOrWhiteSpace(description) && date.HasValue && amount.HasValue && !string.IsNullOrWhiteSpace(selectedType))
+        {
+            transactions.Add(new PaisaModel
+            {
+                Description = description,
+                Date = date.Value,
+                Amount = amount.Value,
+                Type = selectedType
+            });
+
+            // Clear the form fields after adding
+            description = string.Empty;
+            date = null;
+            amount = null;
+            selectedType = "Income";
+
+            CalculateTotal();
+        }
+        Cancel();
+    }
+}

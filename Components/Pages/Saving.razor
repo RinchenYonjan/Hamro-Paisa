@@ -1,0 +1,82 @@
+﻿@page "/saving"
+@inject IDialogService DialogService
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MAUI App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="user-section">
+
+        <div class="search-bar">
+            <form action="/search" method="get">
+                <input type="search" name="query" placeholder="Search here..." required>
+                <MudButton @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
+            </form>
+        </div>
+
+        <!-- Top Button containers -->
+        <div class="button-container">
+            <MudButton @onclick="Sort" Variant="Variant.Filled" Color="Color.Primary">Sort</MudButton>
+            <MudButton @onclick="AscendingOrder" Variant="Variant.Filled" Color="Color.Primary">Ascending</MudButton>
+            <MudButton @onclick="DescendingOrder" Variant="Variant.Filled" Color="Color.Primary">Decending</MudButton>
+        </div>
+
+    </div>
+
+    <!-- List container -->
+    <div class="unique-container">
+        <div class="unqiue-list">
+            <h3>Recent Savings</h3>
+        </div>
+    </div>
+
+</body>
+</html>
+
+@code {
+
+        // Search Button event
+        private void Search()
+        {
+
+        }
+
+
+        // Open Dialog box event
+        private Task OpenDialog()
+        {
+            var options = new DialogOptions { CloseOnEscapeKey = true };
+
+            return DialogService.ShowAsync<SavingDialog>("Saving Dialog", options);
+        }
+
+        // Sort button event
+        private void Sort()
+        {
+
+        }
+
+
+        // AscendingOrder button event
+        private void AscendingOrder()
+        {
+
+        }
+
+
+        //DescendingOrder button event
+        private void DescendingOrder()
+        {
+
+        }
+
+
+}

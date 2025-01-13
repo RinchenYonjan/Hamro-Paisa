@@ -5,6 +5,7 @@
 body {
 /*    background-color: #344e41;*/
     display: inline-block;
+    
 }
 
 .top-container {
@@ -120,7 +121,7 @@ img {
     margin: 10px;
     background-color: #1d3557;
     color: white;
-/*    border: none;*/
+    border: 2px black;
 }
 
     .search-bar button:hover {
@@ -133,6 +134,7 @@ input {
     border-radius: 4px;
     width: 350px;
     height: 60px;
+    border: 2px solid #000;
 }
 
 
@@ -146,10 +148,4 @@ input {
     background-color: #4caf50;
     color: white; 
     border-radius: 8px;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    background-color: #344e41;
 }

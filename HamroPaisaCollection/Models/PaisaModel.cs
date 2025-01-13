@@ -1,17 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-namespace HamroPaisa.HamroPaisa.Models
+using System.ComponentModel.DataAnnotations;
+
+
+namespace HamroPaisa.HamroPaisaCollection.Models
 {
-    public class PaisaModel {
-        
-        public string Description {  get; set; }
-        public DateTime CreatedAt { get; set; }
-        public bool IsPaid {  get; set; }
-        public bool UnPaid { get; set; }
-        public string Category { get; set; }
+
+    public class PaisaModel
+    {
+        [Key]
+        public string Description { get; set; }
+        public DateTime Date { get; set; }
+        public decimal Amount { get; set; }
+        public string Type { get; set; }
+        public decimal Dept { get; set; }
+        public decimal Saving { get; set; }
+
+    
+        private PaisaModel PaisaModelObject = new PaisaModel();
+
 
     }
 
-
 }
+
+
+
+
+  
+
+           

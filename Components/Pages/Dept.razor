@@ -18,16 +18,15 @@
         <div class="search-bar">
             <form action="/search" method="get">
                 <input type="search" name="query" placeholder="Search here..." required>
-                <button type="submit">Search</button>
+                <MudButton @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
             </form>
         </div>
 
         <!-- Top Button containers -->
         <div class="button-container">
-            <MudButton OnClick="OpenDialog">Add</MudButton>
-            <button id="buttonSort">Sort</button>
-            <button id="buttonAsc">Ascending</button>
-            <button id="buttonDes">Decending</button>
+            <MudButton @onclick="Sort" Variant="Variant.Filled" Color="Color.Primary">Sort</MudButton>
+            <MudButton @onclick="AscendingOrder" Variant="Variant.Filled" Color="Color.Primary">Ascending</MudButton>
+            <MudButton @onclick="DescendingOrder" Variant="Variant.Filled" Color="Color.Primary">Decending</MudButton>
         </div>
 
     </div>
@@ -42,33 +41,44 @@
 </body>
 </html>
 
+
 @code {
 
-    // Add button code
-    private async Task OpenDialog()
+    // Search Button event
+    private void Search()
     {
-        // Define dialog options
-        var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Medium };
 
-        // Show the dialog
-        var dialog = DialogService.Show<CustomDialog>("Custom Dialog", options);
+    }
 
-        // Await the dialog result
-        var result = await dialog.Result;
 
-        // Handle cancellation or data retrieval
-        if (result == null) // If result is null, the dialog was canceled
-        {
-            Console.WriteLine("Dialog was canceled.");
-        }
-        else
-        {
-            // Access the data returned from the dialog
-            var userInput = result.Data;
-            Console.WriteLine($"User entered: {userInput}");
+    // Open Dialog box event
+    private Task OpenDialog()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
 
-        }
+        return DialogService.ShowAsync<DeptDialog>("Dept Dialog", options);
+    }
+
+    // Sort button event
+    private void Sort()
+    {
+
+    }
+
+
+    // AscendingOrder button event
+    private void AscendingOrder()
+    {
+
+    }
+
+
+    //DescendingOrder button event
+    private void DescendingOrder()
+    {
+
     }
 
 
 }
+

@@ -1,8 +1,9 @@
-﻿using HamroPaisa.HamroPaisaCollection.Repositories;
-using HamroPaisa.HamroPaisa.Models;
+﻿
 
-
-namespace Paisa.HamroPaisa.Repositories
+namespace HamroPaisa.HamroPaisaCollection.Repositories
 {
-    public interface IPaisaRepository : IRepository<Paisa, Guid>;
+    public interface IPaisaRepository
+    {
+
+    }
 }

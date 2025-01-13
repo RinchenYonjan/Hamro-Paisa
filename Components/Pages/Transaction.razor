@@ -18,16 +18,16 @@
         <div class="search-bar">
             <form action="/search" method="get">
                 <input type="search" name="query" placeholder="Search here..." required>
-                <button type="submit">Search</button>
+                <MudButton Class= "SearchButton" @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
             </form>
         </div>
 
         <!-- Top Button containers -->
         <div class="button-container">
-            <button id="buttonAdd">Add</button>
-            <button id="buttonSort">Sort</button>
-            <button id="buttonAsc">Ascending</button>
-            <button id="buttonDes">Decending</button>
+            <MudButton @onclick="OpenDialog" Variant="Variant.Filled" Color="Color.Primary">Add</MudButton>
+            <MudButton @onclick="Sort" Variant="Variant.Filled" Color="Color.Primary">Sort</MudButton>
+            <MudButton @onclick="AscendingOrder" Variant="Variant.Filled" Color="Color.Primary">Ascending</MudButton>
+            <MudButton @onclick="DescendingOrder" Variant="Variant.Filled" Color="Color.Primary">Decending</MudButton>
         </div>
 
     </div>
@@ -42,6 +42,44 @@
 </body>
 </html>
 
+
 @code {
+
+    // Search Button event
+    private void Search()
+    {
+        
+    }
+
+
+    // Open Dialog box event
+    private Task OpenDialog()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+
+        return DialogService.ShowAsync<TransactionDialog>("Transaction Dialog", options);
+    }
+
+    // Sort button event
+    private void Sort()
+    {
+
+    }
+
+
+    // AscendingOrder button event
+    private void AscendingOrder()
+    {
+        //DAta line ani tesko data lai call garera .OrderBy(x => x.name or other by titles) Ascending Order Ma
+        // Data.OrderByDescending(x => x.name or other by titles)) DEscending Oreder MA
+    }
+
+
+    //DescendingOrder button event
+    private void DescendingOrder()
+    {
+
+    }
+
 
 }

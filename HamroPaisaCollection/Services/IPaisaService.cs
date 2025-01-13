@@ -1,15 +1,13 @@
-﻿using HamroPaisa.HamroPaisa.Models;
+﻿using HamroPaisa.HamroPaisaCollection.Models;
 
 
-
-
-namespace HamroPaisa.HamroPaisa.Services
+namespace HamroPaisa.HamroPaisaCollection.Services
 {
     public interface IPaisaService
     {
 
-        IEnumerable<PaisaModel> getAllPaisa();
-       
+        IEnumerable<PaisaModel> GetAllPaisa();
+        
     }
 }
 
