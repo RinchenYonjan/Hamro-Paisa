@@ -1,5 +1,6 @@
 ﻿@page "/saving"
 @inject IDialogService DialogService
+@inject IPaisaService PaisaService
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +18,7 @@
 
         <div class="search-bar">
             <form action="/search" method="get">
-                <input type="search" name="query" placeholder="Search here..." required>
+                <input type="search" name="query" placeholder="Search here..." @bind="search_item" required>
                 <MudButton @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
             </form>
         </div>
@@ -35,6 +36,10 @@
     <div class="unique-container">
         <div class="unqiue-list">
             <h3>Recent Savings</h3>
+            @foreach (var item in paisamodel)
+            {
+                <div>@item.Description - @item.Date - @item.Amount</div>
+            }
         </div>
     </div>
 
@@ -43,32 +48,90 @@
 
 @code {
 
-        // Search Button event
-        private void Search()
-        {
+    // Declaring list
+    IEnumerable<PaisaModel> paisamodel;
 
+    bool sort = false;
+
+    // Getter and Setter for search box
+    private string search_item { get; set; }
+
+
+    // Initialization Method
+    protected sealed override void OnInitialized()
+    {
+
+        LoadSavingItems();
+
+    }
+
+
+    // Method to load saving type
+     private void LoadSavingItems()
+    {
+        paisamodel = PaisaService.GetAllPaisa().Where(x => x.Type == "Saving");
+    }
+
+
+    // Search Button event
+    private void Search()
+    {
+
+        if (!string.IsNullOrEmpty(search_item))
+        {
+            paisamodel = PaisaService.GetAllPaisa()
+                .Where(x => x.Type == "Saving" && x.Description.ToLower().Contains(search_item.ToLower()));
+        }
+        else
+        {
+            LoadSavingItems();
         }
 
+    }
 
-        // Sort button event
-        private void Sort()
+
+     // Sort button event
+     private void Sort()
+     {
+
+        if (sort)
         {
-
+            paisamodel = PaisaService.GetAllPaisa()
+                .Where(x => x.Type == "Saving")
+                .OrderBy(x => x.Date);
+            sort = false;
+        }
+        else
+        {
+            paisamodel = PaisaService.GetAllPaisa()
+                .Where(x => x.Type == "Saving")
+                .OrderByDescending(x => x.Date);
+            sort = true;
         }
 
-
-        // AscendingOrder button event
-        private void AscendingOrder()
-        {
-
-        }
+     }
 
 
-        //DescendingOrder button event
-        private void DescendingOrder()
-        {
+     // AscendingOrder button event
+     private void AscendingOrder()
+     {
+      
+        paisamodel = PaisaService.GetAllPaisa()
+          .Where(x => x.Type == "Saving")
+          .OrderBy(x => x.Description);
+        
+     }
 
-        }
+
+     //DescendingOrder button event
+     private void DescendingOrder()
+     {
+
+        paisamodel = PaisaService.GetAllPaisa()
+            .Where(x => x.Type == "Saving")
+            .OrderByDescending(x => x.Description);
+
+     }
 
 
 }

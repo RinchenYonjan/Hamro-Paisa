@@ -41,9 +41,9 @@
                 @foreach (var transaction in paisamodel)
                 {
                     <li class="transaction-item">
-                        <span>@transaction.Description</span>&nbsp;
-                        <span>@transaction.Date.ToString("yyyy-MM-dd")</span>&nbsp;
-                        <span>@transaction.Amount.ToString()</span>&nbsp;
+                        <span>@transaction.Description</span>&nbsp;-
+                        <span>@transaction.Date.ToString("yyyy-MM-dd")</span>&nbsp;-
+                        <span>@transaction.Amount.ToString()</span>&nbsp;-
                         <span class="@(transaction.Type == "Income" ? "text-success" : "text-danger")">@transaction.Type</span>
                     </li>
                 }

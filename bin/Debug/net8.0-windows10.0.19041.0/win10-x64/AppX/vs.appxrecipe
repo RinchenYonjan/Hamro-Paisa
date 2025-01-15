@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-15T08:37:19.637</Modified>
+      <Modified>2025-01-15T16:55:20.055</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HamroPaisa.dll">
       <PackagePath>HamroPaisa.dll</PackagePath>
-      <Modified>2025-01-15T08:37:19.386</Modified>
+      <Modified>2025-01-15T16:55:19.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HamroPaisa.exe</PackagePath>
-      <Modified>2025-01-15T08:37:19.392</Modified>
+      <Modified>2025-01-15T16:55:19.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Application Development\HamroPaisa\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Application Development\\HamroPaisa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\pages\\overview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\pages\\overview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\hamropaisacollection\\models\\paisamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:hamropaisacollection\\models\\paisamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|d:\\application development\\hamropaisa\\components\\pages\\overview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF269F88-F934-498C-AEE0-59DED31E5B04}|HamroPaisa.csproj|solutionrelative:components\\pages\\overview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaisaModel.cs",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Models\\PaisaModel.cs",
-              "RelativeDocumentMoniker": "HamroPaisaCollection\\Models\\PaisaModel.cs",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\HamroPaisaCollection\\Models\\PaisaModel.cs",
-              "RelativeToolTip": "HamroPaisaCollection\\Models\\PaisaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T08:33:03.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Overview.razor",
-              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Overview.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Overview.razor",
-              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Overview.razor",
-              "RelativeToolTip": "Components\\Pages\\Overview.razor",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAIkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T07:21:47.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "style.css",
               "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\style.css",
               "ToolTip": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
               "RelativeToolTip": "wwwroot\\style.css",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAD8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T07:38:09.872Z",
+              "WhenOpened": "2025-01-15T17:00:05.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T16:54:34.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Overview.razor",
+              "DocumentMoniker": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Overview.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Overview.razor",
+              "ToolTip": "D:\\Application Development\\HamroPaisa\\Components\\Pages\\Overview.razor",
+              "RelativeToolTip": "Components\\Pages\\Overview.razor",
+              "ViewState": "AgIAACAAAAAAAAAAAAASwHoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T16:53:19.825Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,6 @@
 ﻿@page "/dept"
 @inject IDialogService DialogService
+@inject IPaisaService PaisaService
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +18,7 @@
 
         <div class="search-bar">
             <form action="/search" method="get">
-                <input type="search" name="query" placeholder="Search here..." required>
+                <input type="search" name="query" placeholder="Search here..." @bind="search_item" required>
                 <MudButton @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
             </form>
         </div>
@@ -35,6 +36,10 @@
     <div class="unique-container">
         <div class="unqiue-list">
             <h3>Recent Depts</h3>
+            @foreach (var item in paisamodel)
+            {
+                <div>@item.Description - @item.Date - @item.Amount</div>
+            }
         </div>
     </div>
 
@@ -44,10 +49,43 @@
 
 @code {
 
+    // Declaring list
+    IEnumerable<PaisaModel> paisamodel;
+
+    bool sort = false;
+
+    // Getter and Setter for search box
+    private string search_item { get; set; }
+
+
+    // Initialization Method
+    protected sealed override void OnInitialized()
+    {
+
+        LoadDeptItems();
+
+    }
+
+    // Method to load dept type
+    private void LoadDeptItems()
+    {
+        paisamodel = PaisaService.GetAllPaisa().Where(x => x.Type == "Dept");
+    }
+
+
     // Search Button event
     private void Search()
     {
 
+        if (!string.IsNullOrEmpty(search_item))
+        {
+            paisamodel = PaisaService.GetAllPaisa()
+                .Where(x => x.Type == "Dept" && x.Description.ToLower().Contains(search_item.ToLower()));
+        }
+        else
+        {
+            LoadDeptItems();
+        }
 
     }
 
@@ -56,6 +94,20 @@
     private void Sort()
     {
 
+        if (sort)
+        {
+            paisamodel = PaisaService.GetAllPaisa()
+                .Where(x => x.Type == "Dept")
+                .OrderBy(x => x.Date);
+            sort = false;
+        }
+        else
+        {
+            paisamodel = PaisaService.GetAllPaisa()
+                .Where(x => x.Type == "Dept")
+                .OrderByDescending(x => x.Date);
+            sort = true;
+        }
 
     }
 
@@ -64,6 +116,9 @@
     private void AscendingOrder()
     {
 
+        paisamodel = PaisaService.GetAllPaisa()
+            .Where(x => x.Type == "Dept")
+            .OrderBy(x => x.Description);
 
     }
 
@@ -72,6 +127,9 @@
     private void DescendingOrder()
     {
 
+        paisamodel = PaisaService.GetAllPaisa()
+           .Where(x => x.Type == "Dept")
+           .OrderByDescending(x => x.Description);
 
     }
 

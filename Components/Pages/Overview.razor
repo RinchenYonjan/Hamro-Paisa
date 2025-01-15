@@ -71,6 +71,8 @@
 </body>
 </html>
 
+
+
 @code {
 
     private PieConfig _pieConfig;
@@ -85,6 +87,7 @@
 
     private int _refreshInterval = 5000; // Interval in milliseconds
 
+    // Method to initiate
     protected sealed override void OnInitialized()
     {
         try
@@ -100,6 +103,7 @@
         }
     }
 
+    // Method to refresh data in 5s
     private void StartTimer()
     {
         _timer = new Timer(_refreshInterval); // Use configurable interval
@@ -108,6 +112,7 @@
         _timer.Enabled = true;
     }
 
+    // Method to update data
     private async Task UpdateData()
     {
         try
@@ -123,6 +128,7 @@
         }
     }
 
+    //Method to caculate total
     private void CalculateTotals()
     {
         totalInflow = paisamodel.Where(p => p.Type == "Income").Sum(p => p.Amount);
@@ -131,6 +137,7 @@
         totalBalance = totalInflow - totalOutflow - totalDept;
     }
 
+    // Method to initiate Pie Chart
     private void ConfigurePieConfig()
     {
         _pieConfig = new PieConfig
@@ -161,7 +168,7 @@
         _pieConfig.Data.Datasets.Add(dataSet);
     }
 
-
+    // Method to update Pie Chart
     private void UpdatePieConfig()
     {
         var newDataSet = new PieDataset<int>(new[] { (int)totalInflow, (int)totalOutflow, (int)totalDept })
@@ -176,7 +183,7 @@
     }
 
 
-
+    // Method to generate random Pie Chart color
     private string GetRandomColor()
     {
         var random = new Random();
