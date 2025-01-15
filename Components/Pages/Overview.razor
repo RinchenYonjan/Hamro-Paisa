@@ -1,7 +1,8 @@
 ﻿@using HamroPaisaCollection.Models
-@* @inject LocalDbService local *@
-@page "/"
+@using ChartJs.Blazor.PieChart
+@inject IPaisaService PaisaService
 
+@page "/"
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +18,7 @@
     <!-- Top 4 information -->
     <div class="top-container">
         <div class="row-4">
-            <img src="/assests/user.png" alt="user"/>
+            <img src="/assests/user.png" alt="user" />
             <div class="data">
                 <p>Total Balance</p>
                 <h3>@totalBalance</h3>
@@ -27,14 +28,14 @@
             <img src="/assests/saving.png" alt="bill" />
             <div class="data">
                 <p>Total Inflow</p>
-                <h3>@totalIncome</h3>
+                <h3>@totalInflow</h3>
             </div>
-        </div> 
+        </div>
         <div class="row-4">
             <img src="/assests/bill.png" alt="saving" />
             <div class="data">
                 <p>Total Outflow</p>
-                <h3>@totalExpense</h3>
+                <h3>@totalOutflow</h3>
             </div>
         </div>
         <div class="row-4">
@@ -46,76 +47,139 @@
         </div>
     </div>
 
-    <!-- Three List -->
     <div class="container">
         <div class="transaction-list">
             <h4>Recent Transactions</h4>
             <ul>
-                @foreach (var item in paisamodel)
+                @foreach (var transaction in paisamodel)
                 {
-                    @* <li>@item.Id @item.Title - @item.Type</li> *@
-                    @* <li>@item.amount</li> *@
+                    <li class="transaction-item">
+                        <span>@transaction.Description</span>&nbsp;
+                        <span>@transaction.Date.ToString("yyyy-MM-dd")</span>&nbsp;
+                        <span>@transaction.Amount.ToString()</span>&nbsp;
+                        <span class="@(transaction.Type == "Income" ? "text-success" : "text-danger")">@transaction.Type</span>
+                    </li>
                 }
             </ul>
         </div>
-        <!-- Two List -->
-        <div class="inside-container">       
-            <div class="dept-list">
-                <h4>Depts Breakdown</h4>
-                <ul>@foreach (var item in paisamodel)
-                    {
 
-                    }
-                </ul>
-            </div>
-            <div class="expenses-list">
-                <h4>Expenses Breakdown</h4>
-                <ul>@foreach (var item in paisamodel)
-                    {
-
-                    }
-                </ul>
-            </div>
+        <div class="inside-container chart-container">
+            <Chart config="_pieConfig"></Chart>
         </div>
     </div>
 
 </body>
 </html>
 
-
 @code {
-    Transaction transaction = new Transaction();
 
-    //These fields are meant to hold the total values after CalculateTotals() method is called.
+    private PieConfig _pieConfig;
+    private Timer _timer;
+
     private decimal totalBalance;
-    private decimal totalIncome;
-    private decimal totalExpense;
+    private decimal totalInflow;
+    private decimal totalOutflow;
     private decimal totalDept;
 
-    private class Transaction()
+    IEnumerable<PaisaModel> paisamodel;
+
+    private int _refreshInterval = 5000; // Interval in milliseconds
+
+    protected sealed override void OnInitialized()
     {
-        private int Id { get; set; }
-        private string Description { get; set; }
-        private DateTime Date { get; set; }
-        private decimal Amount { get; set; }
+        try
+        {
+            paisamodel = PaisaService.GetAllPaisa();
+            CalculateTotals();
+            ConfigurePieConfig();
+            StartTimer();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error during initialization: {ex.Message}");
+        }
     }
 
-    private class Expense()
+    private void StartTimer()
     {
-        private int Id { get; set; }
-        private string Description { get; set; }
-        private DateTime Date { get; set; }
-        private decimal Amount { get; set; }
+        _timer = new Timer(_refreshInterval); // Use configurable interval
+        _timer.Elapsed += async (sender, e) => await UpdateData();
+        _timer.AutoReset = true;
+        _timer.Enabled = true;
     }
 
-    private class Dept()
+    private async Task UpdateData()
     {
-        private int Id { get; set; }
-        private string Description { get; set; }
-        private DateTime Date { get; set; }
-        private decimal Amount { get; set; }
+        try
+        {
+            paisamodel = PaisaService.GetAllPaisa();
+            CalculateTotals();
+            UpdatePieConfig();
+            InvokeAsync(StateHasChanged); // Refresh the UI
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error updating data: {ex.Message}");
+        }
+    }
+
+    private void CalculateTotals()
+    {
+        totalInflow = paisamodel.Where(p => p.Type == "Income").Sum(p => p.Amount);
+        totalOutflow = paisamodel.Where(p => p.Type == "Expense").Sum(p => p.Amount);
+        totalDept = paisamodel.Where(p => p.Type == "Dept").Sum(p => p.Amount);
+        totalBalance = totalInflow - totalOutflow - totalDept;
+    }
+
+    private void ConfigurePieConfig()
+    {
+        _pieConfig = new PieConfig
+            {
+                Options = new PieOptions
+                {
+                    Responsive = true,
+                    Title = new OptionsTitle
+                    {
+                        Display = true,
+                        Text = "Transaction Chart"
+                    }
+                }
+            };
+
+        var labels = new[] { "Inflow", "Outflow", "Dept" };
+        foreach (var label in labels)
+        {
+            _pieConfig.Data.Labels.Add(label);
+        }
+
+        var dataSet = new PieDataset<int>(new[] { (int)totalInflow, (int)totalOutflow, (int)totalDept })
+            {
+                BackgroundColor = new[] { GetRandomColor(), GetRandomColor(), GetRandomColor() },
+                BorderColor = new[] { "rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(255, 206, 86, 1)" },
+                BorderWidth = 1
+            };
+        _pieConfig.Data.Datasets.Add(dataSet);
     }
 
 
-    List<PaisaModel> paisamodel = new List<PaisaModel>(); 
+    private void UpdatePieConfig()
+    {
+        var newDataSet = new PieDataset<int>(new[] { (int)totalInflow, (int)totalOutflow, (int)totalDept })
+            {
+                BackgroundColor = new[] { GetRandomColor(), GetRandomColor(), GetRandomColor() },
+                BorderColor = new[] { "rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(255, 206, 86, 1)" },
+                BorderWidth = 1
+            };
+
+        _pieConfig.Data.Datasets.Clear(); // Replace the existing dataset
+        _pieConfig.Data.Datasets.Add(newDataSet);
+    }
+
+
+
+    private string GetRandomColor()
+    {
+        var random = new Random();
+        return $"rgba({random.Next(0, 256)}, {random.Next(0, 256)}, {random.Next(0, 256)}, 0.2)";
+    }
 }

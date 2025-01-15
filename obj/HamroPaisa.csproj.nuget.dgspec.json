@@ -67,13 +67,13 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "ChartJs.Blazor.Fork": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.83, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -97,9 +97,9 @@
               "target": "Package",
               "version": "[7.15.0, )"
             },
-            "SQLitePCLRaw.bundle_e_sqlite3": {
+            "System.Text.Json": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -148,13 +148,13 @@
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "ChartJs.Blazor.Fork": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.83, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -178,9 +178,9 @@
               "target": "Package",
               "version": "[7.15.0, )"
             },
-            "SQLitePCLRaw.bundle_e_sqlite3": {
+            "System.Text.Json": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -217,13 +217,13 @@
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "ChartJs.Blazor.Fork": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.83, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -247,9 +247,9 @@
               "target": "Package",
               "version": "[7.15.0, )"
             },
-            "SQLitePCLRaw.bundle_e_sqlite3": {
+            "System.Text.Json": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -287,13 +287,13 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "ChartJs.Blazor.Fork": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[8.0.83, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -311,9 +311,9 @@
               "target": "Package",
               "version": "[7.15.0, )"
             },
-            "SQLitePCLRaw.bundle_e_sqlite3": {
+            "System.Text.Json": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

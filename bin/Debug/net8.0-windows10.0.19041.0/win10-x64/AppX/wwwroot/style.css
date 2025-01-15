@@ -59,10 +59,10 @@ img {
     justify-content: center;
 }
 
-.inside-container {
-    display: flex;
-    flex-direction: column;
-    width: 580px;
+.chart-container {
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
 }
 
 .transaction-list {
@@ -74,19 +74,6 @@ img {
     overflow: auto;
 }
 
-.dept-list {
-    background-color: #dad7cd;
-    margin: 10px;
-    padding: 14px;
-    height: 200px;
-}
-
-.expenses-list {
-    background-color: #dad7cd;
-    margin: 10px;
-    padding: 14px;
-    height: 200px;
-}
 
 /* buttons */
 .user-section {

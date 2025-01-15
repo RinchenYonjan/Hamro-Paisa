@@ -7,6 +7,7 @@ D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HamroPaisa.pdb
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChartJs.Blazor.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Authorization.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Components.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Components.Forms.dll
@@ -59,7 +60,10 @@ D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MudBlazor.dll
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Text.Encodings.Web.dll
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Text.Json.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -134,6 +138,7 @@ D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\splashicon.scale-100.png
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -214,8 +219,3 @@ D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Data.Sqlite.dll
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll

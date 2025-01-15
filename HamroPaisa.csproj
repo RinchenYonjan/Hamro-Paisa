@@ -59,30 +59,31 @@
 
     <ItemGroup>
       <AndroidResource Remove="HamroPaisaCollection\ViewModel\**" />
+      <AndroidResource Remove="wwwroot\js\**" />
       <AndroidResource Remove="wwwroot\NewFolder\**" />
       <Compile Remove="HamroPaisaCollection\ViewModel\**" />
+      <Compile Remove="wwwroot\js\**" />
       <Compile Remove="wwwroot\NewFolder\**" />
       <Content Remove="HamroPaisaCollection\ViewModel\**" />
+      <Content Remove="wwwroot\js\**" />
       <Content Remove="wwwroot\NewFolder\**" />
       <EmbeddedResource Remove="HamroPaisaCollection\ViewModel\**" />
+      <EmbeddedResource Remove="wwwroot\js\**" />
       <EmbeddedResource Remove="wwwroot\NewFolder\**" />
       <MauiXaml Remove="HamroPaisaCollection\ViewModel\**" />
       <None Remove="HamroPaisaCollection\ViewModel\**" />
+      <None Remove="wwwroot\js\**" />
       <None Remove="wwwroot\NewFolder\**" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="9.0.0" />
+        <PackageReference Include="ChartJs.Blazor.Fork" Version="2.0.2" />
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
         <PackageReference Include="MudBlazor" Version="7.15.0" />
-        <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.10" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot\js\" />
+        <PackageReference Include="System.Text.Json" Version="9.0.0" />
     </ItemGroup>
 
     <ItemGroup>

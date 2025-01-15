@@ -1,3 +1,4 @@
+C:\Users\yonza\.nuget\packages\chartjs.blazor.fork\2.0.2\contentFiles\any\netstandard2.1\wwwroot\ChartJsBlazorInterop.js
 wwwroot\assests\bill.png
 wwwroot\assests\money.png
 wwwroot\assests\saving.png

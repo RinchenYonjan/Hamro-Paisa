@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "PackagePath": "staticwebassets\\ChartJsBlazorInterop.js"
+    },
+    {
       "Id": "D:\\Application Development\\HamroPaisa\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\HamroPaisa.styles.css",
       "PackagePath": "staticwebassets\\HamroPaisa.styles.css"
     },

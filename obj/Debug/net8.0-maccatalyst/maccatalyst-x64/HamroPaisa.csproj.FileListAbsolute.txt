@@ -2,6 +2,7 @@ D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\HamroPaisa.runtimeconfig.json
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\HamroPaisa.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\HamroPaisa.pdb
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ChartJs.Blazor.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Authorization.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.Forms.dll
@@ -36,7 +37,10 @@ D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\MudBlazor.dll
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipelines.dll
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
+D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -206,8 +210,6 @@ D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.CodePages.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.Extensions.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.dll
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
-D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.RegularExpressions.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Channels.dll
 D:\Application Development\HamroPaisa\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Overlapped.dll
@@ -295,6 +297,7 @@ D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\splashicon.png
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 D:\Application Development\HamroPaisa\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png

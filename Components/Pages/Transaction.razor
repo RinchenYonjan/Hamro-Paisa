@@ -18,7 +18,7 @@
 
         <div class="search-bar">
             <form action="/search" method="get">
-                <input type="search" name="query" placeholder="Search here..." required>
+                <input type="search" name="query" placeholder="Search here..." @bind="search_item" required>
                 <MudButton Class= "SearchButton" @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
             </form>
         </div>
@@ -57,19 +57,36 @@
 
 @code {
 
-    // Declaring list
-    List<PaisaModel> paisamodel = new List<PaisaModel>();
 
+    // Declaring list
+    IEnumerable<PaisaModel> paisamodel;
+
+    bool sort = false;
+
+    private string search_item { get; set; }
+
+
+    protected sealed override void OnInitialized()
+    {
+
+        paisamodel = PaisaService.GetAllPaisa();
+
+    }
 
 
     // Search Button event
     private void Search()
     {
 
+        if(search_item != null)
+        {
+            paisamodel = PaisaService.GetAllPaisa().Where(x => (x.Description.ToLower().Contains(search_item.ToLower())));
+        }
+
     }
 
 
-
+    // Add button event
     private async Task OpenTransactionDialog()
     {
         var options = new DialogOptions { CloseOnEscapeKey = true };
@@ -78,7 +95,7 @@
 
         if (!result.Canceled)
         {
-            paisamodel = (List<PaisaModel>)PaisaService.GetAllPaisa();
+            paisamodel = PaisaService.GetAllPaisa();
         }
     }
 
@@ -86,21 +103,35 @@
     // Sort button event
     private void Sort()
     {
+        if(sort)
+        {
+            paisamodel = PaisaService.GetAllPaisa().OrderBy(x => x.Date);
+            sort = false;
+        }
+        else
+        {
+            paisamodel = PaisaService.GetAllPaisa().OrderByDescending(x => x.Date);
+            sort = true;
 
+        }
+       
     }
 
 
     // AscendingOrder button event
     private void AscendingOrder()
     {
-        //DAta line ani tesko data lai call garera .OrderBy(x => x.name or other by titles) Ascending Order Ma
-        // Data.OrderByDescending(x => x.name or other by titles)) DEscending Oreder MA
+
+        paisamodel = PaisaService.GetAllPaisa().OrderBy(x => x.Description);
+
     }
 
 
     //DescendingOrder button event
     private void DescendingOrder()
     {
+
+        paisamodel = PaisaService.GetAllPaisa().OrderByDescending(x => x.Description);
 
     }
 

@@ -45,14 +45,15 @@ img {
 .container {
     display: flex;
     flex-direction: row;
+    margin: 0px 8px;
 }
 
 .unique-container {
     overflow: hidden;
     width: auto;
-    height: 480px;
-    margin: 35px;
+    height: 480px; 
     padding: 24px;
+    margin: 35px;
     background-color: #dad7cd;
     align-items: center;
     justify-content: center;
@@ -61,31 +62,18 @@ img {
 .inside-container {
     display: flex;
     flex-direction: column;
-    width: 580px;
+    width: 50%;
 }
 
 .transaction-list {
     background-color: #dad7cd;
     width: 560px;
-    height: 480px;
-    padding: 24px;
+    height: 420px;
+    padding: 14px;
     margin: 16px;
     overflow: auto;
 }
 
-.dept-list {
-    background-color: #dad7cd;
-    margin: 16px;
-    padding: 24px;
-    height: 230px;
-}
-
-.expenses-list {
-    background-color: #dad7cd;
-    margin: 16px;
-    padding: 24px;
-    height: 220px;
-}
 
 /* buttons */
 .user-section {
@@ -105,9 +93,7 @@ img {
         width: 100px;
         height: 60px;
         margin: 10px;
-        background-color: #1d3557;
         color: white;
-/*        border: none;*/
     }
 
         .button-container button:hover {
@@ -124,28 +110,19 @@ img {
     border: 2px black;
 }
 
-    .search-bar button:hover {
-        background-color: #dad7cd;
-        color: black;
-    }
-
 input {
     outline: none;
     border-radius: 4px;
     width: 350px;
     height: 60px;
     border: 2px solid #000;
-}
-
-
-.logout-button {
-    width: 250px;
-    height: 60px;
-    background-color: red;
+    padding: 12px;
 }
 
 .mud-button {
     background-color: #4caf50;
     color: white; 
     border-radius: 8px;
+    width: 120px;
+    height: 48px;
 }

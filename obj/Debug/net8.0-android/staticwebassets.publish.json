@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xr0tOKDVVc9Q+Hm2/NTlCMYldAZFkyUmyUgdehquAUc=",
+  "Hash": "Z7d1O3RdNWtAtXkC0myFjm3nVYD0sz6Ov7mvxcA3Gd8=",
   "Source": "HamroPaisa",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "SourceId": "HamroPaisa",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Application Development\\HamroPaisa\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "ChartJsBlazorInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49ox6r4gbs",
+      "Integrity": "+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "SourceId": "ChartJs.Blazor.Fork",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor.Fork",
+      "RelativePath": "ChartJsBlazorInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49ox6r4gbs",
+      "Integrity": "+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
+    },
     {
       "Identity": "C:\\Users\\yonza\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
@@ -283,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yzrv29lq7c",
-      "Integrity": "fnVf1ranKoMQxM2i/f/t66mTjd+EbxlXa3ddDqW+D80=",
+      "Fingerprint": "o4abaoxhw7",
+      "Integrity": "+P144i6aQ93uzX+WFT3caFRoJzCDy4ISA3Y89ebRmpA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -304,14 +346,51 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wyfg153w39",
-      "Integrity": "2LnGK4HgsDFpvblqs6PPvlMjixzlkR5FWgHeSq4BtVs=",
+      "Fingerprint": "737kfhlt89",
+      "Integrity": "HbwmuV0bmpbt8PBs3AGVBiSKOERJ1ZAxt/TkGm9Fx+g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style.css"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css",
       "AssetFile": "C:\\Users\\yonza\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
@@ -409,7 +488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -454,7 +533,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -491,7 +570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -536,7 +615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -573,7 +652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -618,7 +697,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -655,7 +734,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -700,7 +779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -711,6 +790,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Q9+paViEZuHhj0BHirfoPgVQFkh1vR2BRg3mwQSv1r4="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.49ox6r4gbs.js",
+      "AssetFile": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49ox6r4gbs"
+        },
+        {
+          "Name": "label",
+          "Value": "ChartJsBlazorInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\yonza\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
         }
       ]
     },
@@ -737,7 +898,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -774,7 +935,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -819,7 +980,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -864,7 +1025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -901,7 +1062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -946,7 +1107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -983,7 +1144,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1028,7 +1189,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 14:58:28 GMT"
+          "Value": "Tue, 14 Jan 2025 02:50:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1065,7 +1226,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 03:35:59 GMT"
+          "Value": "Wed, 15 Jan 2025 07:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1102,7 +1263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 03:35:59 GMT"
+          "Value": "Wed, 15 Jan 2025 07:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1147,7 +1308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 03:35:59 GMT"
+          "Value": "Wed, 15 Jan 2025 07:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1192,7 +1353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 03:35:59 GMT"
+          "Value": "Wed, 15 Jan 2025 07:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1217,7 +1378,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1465"
         },
         {
           "Name": "Content-Type",
@@ -1225,11 +1386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fnVf1ranKoMQxM2i/f/t66mTjd+EbxlXa3ddDqW+D80=\""
+          "Value": "\"+P144i6aQ93uzX+WFT3caFRoJzCDy4ISA3Y89ebRmpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 03:51:46 GMT"
+          "Value": "Wed, 15 Jan 2025 07:07:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1239,12 +1400,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fnVf1ranKoMQxM2i/f/t66mTjd+EbxlXa3ddDqW+D80="
+          "Value": "sha256-+P144i6aQ93uzX+WFT3caFRoJzCDy4ISA3Y89ebRmpA="
         }
       ]
     },
     {
-      "Route": "index.yzrv29lq7c.html",
+      "Route": "index.o4abaoxhw7.html",
       "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1254,7 +1415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1465"
         },
         {
           "Name": "Content-Type",
@@ -1262,11 +1423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fnVf1ranKoMQxM2i/f/t66mTjd+EbxlXa3ddDqW+D80=\""
+          "Value": "\"+P144i6aQ93uzX+WFT3caFRoJzCDy4ISA3Y89ebRmpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 03:51:46 GMT"
+          "Value": "Wed, 15 Jan 2025 07:07:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1276,7 +1437,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yzrv29lq7c"
+          "Value": "o4abaoxhw7"
         },
         {
           "Name": "label",
@@ -1284,7 +1445,52 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fnVf1ranKoMQxM2i/f/t66mTjd+EbxlXa3ddDqW+D80="
+          "Value": "sha256-+P144i6aQ93uzX+WFT3caFRoJzCDy4ISA3Y89ebRmpA="
+        }
+      ]
+    },
+    {
+      "Route": "style.737kfhlt89.css",
+      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HbwmuV0bmpbt8PBs3AGVBiSKOERJ1ZAxt/TkGm9Fx+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 05:23:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "737kfhlt89"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HbwmuV0bmpbt8PBs3AGVBiSKOERJ1ZAxt/TkGm9Fx+g="
         }
       ]
     },
@@ -1299,7 +1505,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2362"
+          "Value": "2138"
         },
         {
           "Name": "Content-Type",
@@ -1307,11 +1513,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2LnGK4HgsDFpvblqs6PPvlMjixzlkR5FWgHeSq4BtVs=\""
+          "Value": "\"HbwmuV0bmpbt8PBs3AGVBiSKOERJ1ZAxt/TkGm9Fx+g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 12:31:46 GMT"
+          "Value": "Wed, 15 Jan 2025 05:23:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1321,52 +1527,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2LnGK4HgsDFpvblqs6PPvlMjixzlkR5FWgHeSq4BtVs="
-        }
-      ]
-    },
-    {
-      "Route": "style.wyfg153w39.css",
-      "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2LnGK4HgsDFpvblqs6PPvlMjixzlkR5FWgHeSq4BtVs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 12:31:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wyfg153w39"
-        },
-        {
-          "Name": "label",
-          "Value": "style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2LnGK4HgsDFpvblqs6PPvlMjixzlkR5FWgHeSq4BtVs="
+          "Value": "sha256-HbwmuV0bmpbt8PBs3AGVBiSKOERJ1ZAxt/TkGm9Fx+g="
         }
       ]
     }

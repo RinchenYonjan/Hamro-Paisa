@@ -1,9 +1,9 @@
 ﻿@inherits LayoutComponentBase
+@inject IPaisaService paisa
 
 <MudThemeProvider/>
 <MudDialogProvider/>
 <MudSnackbarProvider/>
-
 
 <MudLayout>
     <MudAppBar>
@@ -23,8 +23,14 @@
     </MudMainContent>
 </MudLayout>
 
+
 @code{
     bool _drawerOpen = true;
+
+    protected sealed override void OnInitialized()
+    {
+        paisa.InitializeData();
+    }
 
     void DrawerToogle()
     {

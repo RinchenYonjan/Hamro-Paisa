@@ -19,7 +19,6 @@ namespace HamroPaisa
             builder.Services.AddMauiBlazorWebView();
             builder.Services.AddMudServices();
             builder.Services.AddSingleton<IPaisaService, PaisaServices>();
-            //builder.Services.AddSingleton<LocalDbService>();
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();

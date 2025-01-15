@@ -7,8 +7,8 @@ namespace HamroPaisa.HamroPaisaCollection.Services
     {
 
         IEnumerable<PaisaModel> GetAllPaisa();
-       
 
+        Task InitializeData();
 
         void AddTransaction(PaisaModel transaction);
     }

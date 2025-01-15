@@ -8,9 +8,9 @@ namespace HamroPaisa
     {
         public MainPage()
         {
+
             InitializeComponent();
-            PaisaServices ps = new PaisaServices();
-            ps.Initialize();
+           
         }
     }
 }
