@@ -59,10 +59,10 @@ img {
     justify-content: center;
 }
 
-.inside-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.chart-container {
+    overflow: hidden;
+    width: 600px;
+    height: 500px;
 }
 
 .transaction-list {

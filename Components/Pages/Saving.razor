@@ -10,6 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My MAUI App</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        td, th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+            word-wrap: break-word;
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -19,15 +37,15 @@
         <div class="search-bar">
             <form action="/search" method="get">
                 <input type="search" name="query" placeholder="Search here..." @bind="search_item" required>
-                <MudButton @onclick="Search" Variant="Variant.Filled" Color="Color.Primary">Search</MudButton>
+                <MudButton @onclick="Search" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.ManageSearch" Color="Color.Primary">Search</MudButton>
             </form>
         </div>
 
         <!-- Top Button containers -->
         <div class="button-container">
-            <MudButton @onclick="Sort" Variant="Variant.Filled" Color="Color.Primary">Sort</MudButton>
-            <MudButton @onclick="AscendingOrder" Variant="Variant.Filled" Color="Color.Primary">Ascending</MudButton>
-            <MudButton @onclick="DescendingOrder" Variant="Variant.Filled" Color="Color.Primary">Decending</MudButton>
+            <MudButton @onclick="SortDialog" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.FilterAlt" Color="Color.Primary">Sort</MudButton>
+            <MudButton @onclick="HighestOrder" Style="width: 120px;" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.ArrowUpward" Color="Color.Primary">Highest</MudButton>
+            <MudButton @onclick="LowestOrder" Style="width: 120px;" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.ArrowDownward" Color="Color.Primary">Lowest</MudButton>
         </div>
 
     </div>
@@ -35,16 +53,30 @@
     <!-- List container -->
     <div class="unique-container">
         <div class="unqiue-list">
-            <h3>Recent Savings</h3>
+            <h3>Savings History</h3>
+
             @foreach (var item in paisamodel)
             {
-                <div>@item.Description - @item.Date - @item.Amount</div>
+                <table class="transaction-item">
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                    </tr>
+                    <tr>
+                        <td>@item.Description</td>
+                        <td>@item.Date.ToString("yyyy-MM-dd")</td>
+                        <td><a>Rs</a> @item.Amount.ToString()</td>
+                    </tr>
+                </table>
             }
+
         </div>
     </div>
 
 </body>
 </html>
+
 
 @code {
 
@@ -56,18 +88,18 @@
     // Getter and Setter for search box
     private string search_item { get; set; }
 
+    // Getter and Setter for Date Range
+    private string selectedDateRange { get; set; }
 
     // Initialization Method
     protected sealed override void OnInitialized()
     {
-
         LoadSavingItems();
-
     }
 
 
     // Method to load saving type
-     private void LoadSavingItems()
+    private void LoadSavingItems()
     {
         paisamodel = PaisaService.GetAllPaisa().Where(x => x.Type == "Saving");
     }
@@ -76,7 +108,6 @@
     // Search Button event
     private void Search()
     {
-
         if (!string.IsNullOrEmpty(search_item))
         {
             paisamodel = PaisaService.GetAllPaisa()
@@ -86,52 +117,52 @@
         {
             LoadSavingItems();
         }
+    }
 
+    
+    // Method to open dialog box for saving
+    private async Task SortDialog()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        var dialog = await DialogService.ShowAsync<TransactionSort>("Filter by Date Range", options);
+        var result = await dialog.Result;
+
+        if (!result.Canceled && result.Data is DateModel dateModel)
+        {
+            selectedDateRange = $"{dateModel.DateFrom} to {dateModel.DateTo}";
+            FilterSavingByDateRange(dateModel);
+        }
     }
 
 
-     // Sort button event
-     private void Sort()
-     {
+    // Method to filter saving by date range
+    private void FilterSavingByDateRange(DateModel dateModel)
+    {
+        DateTime dateFrom = DateTime.Parse(dateModel.DateFrom);
+        DateTime dateTo = DateTime.Parse(dateModel.DateTo);
 
-        if (sort)
-        {
-            paisamodel = PaisaService.GetAllPaisa()
-                .Where(x => x.Type == "Saving")
-                .OrderBy(x => x.Date);
-            sort = false;
-        }
-        else
-        {
-            paisamodel = PaisaService.GetAllPaisa()
-                .Where(x => x.Type == "Saving")
-                .OrderByDescending(x => x.Date);
-            sort = true;
-        }
-
-     }
+        paisamodel = PaisaService.GetAllPaisa()
+            .Where(x => x.Type == "Saving" && x.Date >= dateFrom && x.Date <= dateTo)
+            .OrderBy(x => x.Date)
+            .ToList();
+    }
 
 
-     // AscendingOrder button event
-     private void AscendingOrder()
-     {
-      
+    // HighestOrder button event
+    private void HighestOrder()
+    {
         paisamodel = PaisaService.GetAllPaisa()
           .Where(x => x.Type == "Saving")
-          .OrderBy(x => x.Description);
-        
-     }
+          .OrderByDescending(x => x.Amount);
+    }
 
 
-     //DescendingOrder button event
-     private void DescendingOrder()
-     {
-
+    // LowestOrder button event
+    private void LowestOrder()
+    {
         paisamodel = PaisaService.GetAllPaisa()
             .Where(x => x.Type == "Saving")
-            .OrderByDescending(x => x.Description);
-
-     }
-
+            .OrderBy(x => x.Amount);
+    }
 
 }

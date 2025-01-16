@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BUQBesPov37nak4lPcoQHbsAck+8gT4eJoRhiFm77hU=",
+  "Hash": "P15uZT9fMI8uNxzLjK0A+92BUPoKu1xOQnKP95oiYbE=",
   "Source": "HamroPaisa",
   "BasePath": "/",
   "Mode": "Root",
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pceetk90av",
-      "Integrity": "1yIMSGm8K6evqKpAVbHAyvBtgJ5/nMdVzaEMOXV2UD0=",
+      "Fingerprint": "sld6vwwkk6",
+      "Integrity": "oHbhKGh58TnCRR+3P6hdSZYXo6RAC1d+/20YL4O3aWo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style.css"
@@ -1226,7 +1226,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 07:20:20 GMT"
+          "Value": "Thu, 16 Jan 2025 02:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1263,7 +1263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 07:20:20 GMT"
+          "Value": "Thu, 16 Jan 2025 02:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1308,7 +1308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 07:20:20 GMT"
+          "Value": "Thu, 16 Jan 2025 02:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 07:20:20 GMT"
+          "Value": "Thu, 16 Jan 2025 02:42:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1460,7 +1460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2133"
+          "Value": "2131"
         },
         {
           "Name": "Content-Type",
@@ -1468,11 +1468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1yIMSGm8K6evqKpAVbHAyvBtgJ5/nMdVzaEMOXV2UD0=\""
+          "Value": "\"oHbhKGh58TnCRR+3P6hdSZYXo6RAC1d+/20YL4O3aWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 07:42:12 GMT"
+          "Value": "Thu, 16 Jan 2025 16:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1482,12 +1482,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1yIMSGm8K6evqKpAVbHAyvBtgJ5/nMdVzaEMOXV2UD0="
+          "Value": "sha256-oHbhKGh58TnCRR+3P6hdSZYXo6RAC1d+/20YL4O3aWo="
         }
       ]
     },
     {
-      "Route": "style.pceetk90av.css",
+      "Route": "style.sld6vwwkk6.css",
       "AssetFile": "D:\\Application Development\\HamroPaisa\\wwwroot\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1497,7 +1497,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2133"
+          "Value": "2131"
         },
         {
           "Name": "Content-Type",
@@ -1505,11 +1505,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1yIMSGm8K6evqKpAVbHAyvBtgJ5/nMdVzaEMOXV2UD0=\""
+          "Value": "\"oHbhKGh58TnCRR+3P6hdSZYXo6RAC1d+/20YL4O3aWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 07:42:12 GMT"
+          "Value": "Thu, 16 Jan 2025 16:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1519,7 +1519,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pceetk90av"
+          "Value": "sld6vwwkk6"
         },
         {
           "Name": "label",
@@ -1527,7 +1527,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1yIMSGm8K6evqKpAVbHAyvBtgJ5/nMdVzaEMOXV2UD0="
+          "Value": "sha256-oHbhKGh58TnCRR+3P6hdSZYXo6RAC1d+/20YL4O3aWo="
         }
       ]
     }

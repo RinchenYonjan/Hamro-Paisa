@@ -49,14 +49,14 @@ img {
 }
 
 .unique-container {
-    overflow: hidden;
     width: auto;
-    height: 480px; 
+    height: 540px; 
     padding: 24px;
     margin: 35px;
     background-color: #dad7cd;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 
 .chart-container {

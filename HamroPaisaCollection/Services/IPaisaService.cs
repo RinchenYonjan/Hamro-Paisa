@@ -11,6 +11,11 @@ namespace HamroPaisa.HamroPaisaCollection.Services
         Task InitializeData();
 
         void AddTransaction(PaisaModel transaction);
+
+        Task ExportToDesktopAsync();
+
+        Task ClearData();
     }
+
 }
 
