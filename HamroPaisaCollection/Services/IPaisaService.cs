@@ -15,6 +15,7 @@ namespace HamroPaisa.HamroPaisaCollection.Services
         Task ExportToDesktopAsync();
 
         Task ClearData();
+    
     }
 
 }

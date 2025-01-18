@@ -116,7 +116,15 @@
         }
         else
         {
-            LoadDeptItems();
+            DialogService.ShowMessageBox(
+              title: "Empty Field!",
+              message: "Please insert value for the result.",
+              options: new MudBlazor.DialogOptions()
+                  {
+                      CloseButton = false,       // Hide close button
+                      FullWidth = true,          // Make dialog full width
+                      MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+                  });
         }
     }
 

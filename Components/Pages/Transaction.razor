@@ -13,17 +13,17 @@
 
     <style>
         table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-            table-layout: fixed;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
         }
 
         td, th {
-            border: 1px solid #000000;
-            text-align: left;
-            padding: 8px;
-            word-wrap: break-word;
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px;
+        word-wrap: break-word;
         }
 
     </style>
@@ -55,7 +55,7 @@
     <div class="unique-container">
         <div class="unqiue-list">
             <h3>Transaction History</h3>
-            
+
             @foreach (var transaction in paisamodel)
             {
 
@@ -113,6 +113,18 @@
         if(search_item != null)
         {
             paisamodel = PaisaService.GetAllPaisa().Where(x => (x.Description.ToLower().Contains(search_item.ToLower())));
+        }
+        else
+        {
+            DialogService.ShowMessageBox(
+              title: "Empty Filed!",
+              message: "Please insert value for the result.",
+              options: new MudBlazor.DialogOptions()
+                  {
+                      CloseButton = false,       // Hide close button
+                      FullWidth = true,          // Make dialog full width
+                      MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+                  });
         }
 
     }

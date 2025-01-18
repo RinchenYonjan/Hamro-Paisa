@@ -1,1 +1,0 @@
-D:\Application Development\HamroPaisa\HamroPaisa.csproj;x64
