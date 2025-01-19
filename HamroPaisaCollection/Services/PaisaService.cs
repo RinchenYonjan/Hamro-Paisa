@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.Json;
-using HamroPaisa.HamroPaisaCollection.Models;
+﻿using HamroPaisa.HamroPaisaCollection.Models;
 using MudBlazor;
+using System.Text.Json;
 
 namespace HamroPaisa.HamroPaisaCollection.Services
 {
@@ -12,22 +8,44 @@ namespace HamroPaisa.HamroPaisaCollection.Services
     {
         private static readonly string _cacheDirectory = FileSystem.Current.CacheDirectory;
         private const string _dataFile = "data.json";
-        private readonly IDialogService _dialogService;
         private readonly string _filePath = Path.Combine(_cacheDirectory, _dataFile);
         private readonly string _dbPath = Path.Combine(_cacheDirectory, "PaisaDatabase.db");
 
         List<PaisaModel> _paisaModel = new List<PaisaModel>();
 
 
-        public PaisaServices(IDialogService dialogService)
+        // Method to check amount
+        private bool CanTakeDebt(decimal amount)
         {
-            _dialogService = dialogService;
+            return amount > 500;
         }
 
 
+        // Method to add transaction
         public void AddTransaction(PaisaModel transaction)
         {
-  
+            if (transaction.Amount <= 0)
+            {
+                decimal currentBalance = _paisaModel.Sum(x => x.Amount);
+
+                if (!CanTakeDebt(currentBalance))
+                {
+                    DialogOptions dialogOptions = new DialogOptions()
+                    {
+                        CloseButton = true,
+                        MaxWidth = MaxWidth.Small
+                    };
+
+                    var parameters = new DialogParameters
+                    {
+                        { "ContentText", "Your balance is too low to take debt!" },
+                        { "Title", "Insufficent Balance" },
+                        { "ButtonText", "OK" }
+                    };
+                }
+
+            }
+
             _paisaModel.Add(transaction);
             Flush();
         }

@@ -1,4 +1,5 @@
 ﻿@inject IPaisaService Paisa
+@inject IDialogService DialogService
 
 <MudDialog>
     <TitleContent>
@@ -104,6 +105,18 @@
             CalculateTotal();
             MudDialog.Close(DialogResult.Ok(true));
         }
-        Cancel();
+        else
+        {
+            DialogService.ShowMessageBox(
+             title: "Empty Filed!",
+             message: "Please insert all the fields.",
+             options: new MudBlazor.DialogOptions()
+                 {
+                     CloseButton = false,       // Hide close button
+                     FullWidth = true,          // Make dialog full width
+                     MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+                 });
+        }
+ 
     }
 }

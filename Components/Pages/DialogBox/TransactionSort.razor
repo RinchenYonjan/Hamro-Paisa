@@ -1,4 +1,5 @@
 ﻿@inject IPaisaService Paisa
+@inject IDialogService DialogService
 
 <MudDialog>
     <TitleContent>
@@ -56,7 +57,15 @@
         }
         else
         {
-            MudDialog.Close(DialogResult.Cancel());
+            DialogService.ShowMessageBox(
+         title: "Empty Filed!",
+         message: "Please insert date for the result.",
+         options: new MudBlazor.DialogOptions()
+             {
+                 CloseButton = false,       // Hide close button
+                 FullWidth = true,          // Make dialog full width
+                 MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+             });
         }
     }
 }
