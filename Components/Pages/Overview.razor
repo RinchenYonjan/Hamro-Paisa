@@ -1,0 +1,232 @@
+﻿@using HamroPaisaCollection.Models
+@using ChartJs.Blazor.PieChart
+@inject IPaisaService PaisaService
+@inject IDialogService DialogService
+
+@page "/"
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MAUI App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        td, th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+            word-wrap: break-word;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Top 4 information -->
+    <div class="top-container">
+        <div class="row-4">
+            <img src="/assests/user.png" alt="user" />
+            <div class="data">
+                <p>Total Balance</p>
+                <h3><a>Rs</a> @totalBalance</h3>
+            </div>
+        </div>
+        <div class="row-4">
+            <img src="/assests/saving.png" alt="bill" />
+            <div class="data">
+                <p>Total Inflow</p>
+                <h3><a>Rs</a> @totalInflow</h3>
+            </div>
+        </div>
+        <div class="row-4">
+            <img src="/assests/bill.png" alt="saving" />
+            <div class="data">
+                <p>Total Outflow</p>
+                <h3><a>Rs</a> @totalOutflow</h3>
+            </div>
+        </div>
+        <div class="row-4">
+            <img src="/assests/money.png" alt="money" />
+            <div class="data">
+                <p>Total Dept</p>
+                <h3><a>Rs</a> @totalDept</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="transaction-list">
+            <h4>Recent Transactions</h4>
+            
+             @foreach (var transaction in paisamodel)
+             {
+
+                <table class="transaction-item">
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                    </tr>
+                    <tr>
+                        <td>@transaction.Description</td>
+                        <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                        <td><a>Rs</a> @transaction.Amount.ToString()</td>
+                        <td class="@(transaction.Type == "Income" ? "text-success" : "text-danger")">@transaction.Type</td>
+                    </tr>
+                </table>
+                
+             }
+            
+        </div>
+
+        <div class="inside-container chart-container">
+            <Chart config="_pieConfig"></Chart>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+@code {
+
+    private PieConfig _pieConfig;
+    private Timer _timer;
+
+    // Declaring variables to store;
+    private decimal totalBalance;
+    private decimal totalInflow;
+    private decimal totalOutflow;
+    private decimal totalDept;
+
+    IEnumerable<PaisaModel> paisamodel;
+
+    private int _refreshInterval = 5000; // Interval in milliseconds
+
+
+    // Method to initiate
+    protected sealed override void OnInitialized()
+    {
+        try
+        {
+            paisamodel = PaisaService.GetAllPaisa();
+            CalculateTotals();
+            ConfigurePieConfig();
+            StartTimer();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error during initialization: {ex.Message}");
+        }
+    }
+
+
+    // Method to refresh data in 5s
+    private void StartTimer()
+    {
+        _timer = new Timer(_refreshInterval); // Use configurable interval
+        _timer.Elapsed += async (sender, e) => await UpdateData();
+        _timer.AutoReset = true;
+        _timer.Enabled = true;
+    }
+
+
+    // Method to update data
+    private async Task UpdateData()
+    {
+        try
+        {
+            paisamodel = PaisaService.GetAllPaisa();
+            CalculateTotals();
+            UpdatePieConfig();
+            InvokeAsync(StateHasChanged); // Refresh the UI
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error updating data: {ex.Message}");
+        }
+    }
+
+
+    //Method to caculate total
+    private void CalculateTotals()
+    {
+        totalInflow = paisamodel.Where(p => p.Type == "Income").Sum(p => p.Amount);
+        totalOutflow = paisamodel.Where(p => p.Type == "Expense").Sum(p => p.Amount);
+        totalDept = paisamodel.Where(p => p.Type == "Dept").Sum(p => p.Amount);
+        totalBalance = totalInflow - totalOutflow - totalDept;
+    }
+
+
+    // Method to initiate Pie Chart
+    private void ConfigurePieConfig()
+    {
+        _pieConfig = new PieConfig
+            {
+                Options = new PieOptions
+                {
+                    Responsive = true,
+                    Title = new OptionsTitle
+                    {
+                        Display = true,
+                        Text = "Transaction Chart"
+                    }
+                }
+            };
+
+        var labels = new[] { "Inflow", "Outflow", "Dept" };
+        foreach (var label in labels)
+        {
+            _pieConfig.Data.Labels.Add(label);
+        }
+
+        var dataSet = new PieDataset<int>(new[] { (int)totalInflow, (int)totalOutflow, (int)totalDept })
+            {
+                BackgroundColor = new[] { GetRandomColor(), GetRandomColor(), GetRandomColor() },
+                BorderColor = new[] { "rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(255, 206, 86, 1)" },
+                BorderWidth = 1
+            };
+        _pieConfig.Data.Datasets.Add(dataSet);
+    }
+
+
+    // Method to update Pie Chart
+    private void UpdatePieConfig()
+    {
+        var newDataSet = new PieDataset<int>(new[] { (int)totalInflow, (int)totalOutflow, (int)totalDept })
+            {
+                BackgroundColor = new[] { GetRandomColor(), GetRandomColor(), GetRandomColor() },
+                BorderColor = new[] { "rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(255, 206, 86, 1)" },
+                BorderWidth = 1
+            };
+
+        _pieConfig.Data.Datasets.Clear(); // Replace the existing dataset
+        _pieConfig.Data.Datasets.Add(newDataSet);
+    }
+
+
+    // Method to generate random Pie Chart color
+    private string GetRandomColor()
+    {
+        var random = new Random();
+        return $"rgba({random.Next(0, 256)}, {random.Next(0, 256)}, {random.Next(0, 256)}, 0.2)";
+    }
+
+}

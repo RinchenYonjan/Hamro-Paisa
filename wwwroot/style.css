@@ -1,0 +1,128 @@
+* {
+    font-family: 'Roboto Condensed';
+}
+
+body {
+/*    background-color: #344e41;*/
+    display: inline-block;
+    
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.row-4 {
+    background-color: #dad7cd;
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    width: 260px;
+    height: 180px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.row-4 p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* container */
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 8px;
+}
+
+.unique-container {
+    width: auto;
+    height: 540px; 
+    padding: 24px;
+    margin: 35px;
+    background-color: #dad7cd;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.chart-container {
+    overflow: hidden;
+    width: 600px;
+    height: 500px;
+}
+
+.transaction-list {
+    background-color: #dad7cd;
+    width: 560px;
+    height: 420px;
+    padding: 14px;
+    margin: 16px;
+    overflow: auto;
+}
+
+
+/* buttons */
+.user-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    .button-container button {
+        width: 100px;
+        height: 60px;
+        margin: 10px;
+        color: white;
+    }
+
+        .button-container button:hover {
+            background-color: #dad7cd;
+            color: black;
+        }
+
+.search-bar button {
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    background-color: #1d3557;
+    color: white;
+    border: 2px black;
+}
+
+input {
+    outline: none;
+    border-radius: 4px;
+    width: 350px;
+    height: 60px;
+    border: 2px solid #000;
+    padding: 12px;
+}
+
+.mud-button {
+    background-color: #4caf50;
+    color: white; 
+    border-radius: 8px;
+    width: 120px;
+    height: 48px;
+}

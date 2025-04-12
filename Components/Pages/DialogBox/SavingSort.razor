@@ -1,0 +1,71 @@
+﻿@inject IPaisaService Paisa
+@inject IDialogService DialogService
+
+<MudDialog>
+    <TitleContent>
+        Please select the date range
+    </TitleContent>
+    <DialogContent>
+
+        <form>
+
+            <!-- Date Input -->
+            <label>Date From</label><br>
+            <input type="datetime-local" @bind="dateFrom" id="datetime-field" placeholder="Select your date" required><br><br>
+
+
+            <!-- Date Input -->
+            <label>Date To</label><br>
+            <input type="datetime-local" @bind="dateTo" id="datetime-field" placeholder="Select your date" required><br><br>
+
+        </form>
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="SavingDate">Filter</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+
+    // Declaring vairable to store
+    private DateTime? dateFrom;
+    private DateTime? dateTo;
+
+
+    // Method to cancel the dialog
+    private void Cancel() => MudDialog.Cancel();
+
+
+    // Method to add a transaction
+    private void SavingDate()
+    {
+        if (dateFrom.HasValue && dateTo.HasValue)
+        {
+            var dateModel = new DateModel
+                {
+                    DateFrom = dateFrom.Value.ToString("yyyy-MM-ddTHH:mm:ss"),
+                    DateTo = dateTo.Value.ToString("yyyy-MM-ddTHH:mm:ss")
+                };
+
+            // Pass the filtered and sorted transactions back to the parent component if needed
+            MudDialog.Close(DialogResult.Ok(dateModel));
+        }
+        else
+        {
+            DialogService.ShowMessageBox(
+             title: "Empty Filed!",
+             message: "Please insert date for the result.",
+             options: new MudBlazor.DialogOptions()
+                 {
+                     CloseButton = false,       // Hide close button
+                     FullWidth = true,          // Make dialog full width
+                     MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+                 });
+        }
+    }
+}

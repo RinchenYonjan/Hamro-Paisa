@@ -1,0 +1,124 @@
+﻿@page "/setting"
+@inject IDialogService DialogService
+@inject IPaisaService PaisaService
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MAUI App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .mud-dialog-container .mud-button {
+            font-size: 14px;
+            width: 80px;
+            height: 40px;
+            margin: 10px;
+            border-radius: 8px; 
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="user-section">
+
+        <!-- Top Button containers -->
+        <div class="button-container">
+
+            <MudButton @onclick="ChangeCurrency" Style="width: 140px;" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.AttachMoney" Color="Color.Primary">Change Currency</MudButton>
+            <MudButton @onclick="ExportJson" Style="width: 140px;" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.InstallDesktop" Color="Color.Primary">Export to Desktop</MudButton>
+            <MudButton @onclick="ClearData" Style="width: 140px;" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.DeleteForever" Color="Color.Error">Clear Data</MudButton>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+
+
+@code {
+
+    bool _isExporting = true;
+
+    IEnumerable<PaisaModel> paisamodel;
+
+
+    // Method to clear jason data
+    private async Task ClearData()
+    {
+  
+        var result = await DialogService.ShowMessageBox(
+            title: "Clear Data",
+            message: "Are you sure you want to clear all data?",
+            yesText: "Yes",
+            cancelText: "Cancel",
+            options: new MudBlazor.DialogOptions()
+        {
+            CloseButton = false,       // Hide close button
+            FullWidth = true,          // Make dialog full width
+            MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+        });
+
+        if (result == true)
+        {
+            await PaisaService.ClearData(); // Clear data in the service
+            
+            paisamodel = Enumerable.Empty<PaisaModel>(); // Clear local UI model
+           
+            StateHasChanged(); // Refresh UI
+        }
+
+    }
+
+
+    // Method to export Json file to desktop
+    private async Task ExportJson()
+    {
+        try
+        {
+            PaisaService.ExportToDesktopAsync();
+
+            await DialogService.ShowMessageBox(
+                title: "Export Successful",
+                message: "File has been exported to your desktop.",
+                options: new MudBlazor.DialogOptions()
+                {
+                    CloseButton = false,       // Hide close button
+                    FullWidth = true,          // Make dialog full width
+                    MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+                });
+           
+        }
+        catch (Exception ex)
+        {
+             DialogService.ShowMessageBox("Export Failed", ex.Message);
+        }
+    }
+
+
+    // Method to change currency
+    private void ChangeCurrency()
+    {
+        
+        DialogService.ShowMessageBox(
+               title: "Change Currency",
+               message: "Currency can be only change in coming verion of app.",
+               options: new MudBlazor.DialogOptions()
+                   {
+                       CloseButton = false,       // Hide close button
+                       FullWidth = true,          // Make dialog full width
+                       MaxWidth = MudBlazor.MaxWidth.Small // Control dialog width
+                   });
+
+    }
+}
+
